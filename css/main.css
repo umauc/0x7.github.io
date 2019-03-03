@@ -1874,7 +1874,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #942442;
+  background: #55fff2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3026,6 +3026,10 @@ pre .javascript .function {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+body {
+  background: url("https://s2.ax1x.com/2019/03/03/kLsAQ1.jpg");
+  background-attachment: fixed;
 }
 .content-wrap {
   padding: initial;
