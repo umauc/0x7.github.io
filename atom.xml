@@ -6,7 +6,7 @@
   <link href="/umauc.github.io/atom.xml" rel="self"/>
   
   <link href="https://0x7fffff.top/"/>
-  <updated>2019-03-03T06:27:17.435Z</updated>
+  <updated>2019-08-16T04:37:17.382Z</updated>
   <id>https://0x7fffff.top/</id>
   
   <author>
@@ -15,6 +15,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>哪吒之魔童降世观后感</title>
+    <link href="https://0x7fffff.top/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96%E8%A7%82%E5%90%8E%E6%84%9F.html"/>
+    <id>https://0x7fffff.top/哪吒之魔童降世观后感.html</id>
+    <published>2019-08-16T04:09:43.000Z</published>
+    <updated>2019-08-16T04:37:17.382Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近被基友拉着去看了《哪吒之魔童降世》,有感而发(咕了五个月才憋出来的一篇文章)</p><a id="more"></a><ul><li>优点</li></ul><ul><li>画风优良<br>作为一部动画电影,如果其展现给观众的画面本身就参差人意,即使剧情再好,也很难吸引观众.在画风这点上,哪吒做的相当好.</li></ul><ul><li>感情线<br>哪吒与李靖的关系被大大的扭转(对比原著),父慈子孝的话个人认为也没什么缺点.与敖丙的友情线也可圈可点.在亲情这条线上以毽子做象征,相当催泪</li></ul><ul><li><p>剧情独特<br>是一般通过正能量剧情,大可放心.’我命由我不由天’的主张也比较符合当今时代年轻人的思想</p></li><li><p>缺点</p></li></ul><ul><li>泛滥的低素质笑话<br>过于老套,笑话能让人立马猜出来的那种</li></ul><ul><li>女性模型<br>我现在怀疑是不是所有3D动画的女性模型都是尖下巴的…</li></ul><ul><li>总结<br>瑕不掩瑜,推荐观看,分类等级大概为PG级</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近被基友拉着去看了《哪吒之魔童降世》,有感而发(咕了五个月才憋出来的一篇文章)&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>如何破解百度云限速</title>
@@ -64,27 +82,6 @@
     <summary type="html">
     
       &lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;NOeSIS是由同好会“Classic Chocolat”的cutlass所创作的系列悬疑AVG作品，同时也是其衍生作品的名称&lt;br&gt;&lt;a href=&quot;https://baike.baidu.com/link?url=ZwYXPYlNyesbdZUbnbcO6HQejzScbU-p8wrnVCTi2N8LAk34a0kVKkG_vCSuio85PbwUuXiLrFU06iEc6lK1B_&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百科&lt;/a&gt; &lt;a href=&quot;https://tieba.baidu.com/f?kw=noesis虚假的记忆物语&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;贴吧&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>一个有趣的bug</title>
-    <link href="https://0x7fffff.top/%E4%B8%80%E4%B8%AA%E6%9C%89%E8%B6%A3%E7%9A%84bug.html"/>
-    <id>https://0x7fffff.top/一个有趣的bug.html</id>
-    <published>2019-01-27T10:16:03.000Z</published>
-    <updated>2019-02-01T02:57:54.271Z</updated>
-    
-    <content type="html"><![CDATA[<p>我在博客上用的名字是0x7FFFFF，结果因为一个神奇的bug，我的名字被识别成了16进制数字，再被转回了10进制<br><a href="https://imgchr.com/i/kKF0mQ" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/27/kKF0mQ.png" alt="例子"></a><br>所以现在我的名字就成了8388607了<del>mmp</del></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;我在博客上用的名字是0x7FFFFF，结果因为一个神奇的bug，我的名字被识别成了16进制数字，再被转回了10进制&lt;br&gt;&lt;a href=&quot;https://imgchr.com/i/kKF0mQ&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img sr
-      
     
     </summary>
     
