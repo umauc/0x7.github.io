@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[MinecraftEarth安装教程]]></title>
+    <url>%2FMinecraftEarth%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.html</url>
+    <content type="text"><![CDATA[0x00 前言最近Minecraft Earth开始内测，本人有幸获得一份安装包，一顿操作之后成功安装，特来水篇教程（求换个Xbox好友，ID：I0x7FFFFF) 0x01 准备工作 MinecraftEarth:下载 Fake Location (或任意虚拟定位软件):下载 梯子(推荐伦敦、西雅图、斯德哥尔摩、东京、墨西哥城IP的,测试除中国IP外皆可[本人新加坡]):不提供 Google4件套(推荐Nano版本，使用方法自行百度，可使用各种安装器):下载 Magisk(非必须):下载 ARCore:Google Play ARCore/Playground Patcher(非必须):Magisk Manager内下载 Root Google&amp;Microsoft账号(区域不限)0x03 部署(全程挂梯子) 1.刷入Google4件套2.安装Minecraft Earth3.在Google Play安装ARCore(设备不支持者跳转0x03)4.启动Fake Location，并将定位位置设置为伦敦\西雅图\斯德哥尔摩\东京\墨西哥城的其中一处5.启动Minecraft Earth，等待游戏更新6.重启7.在游戏内登录Microsoft账号8.重启9.启动游戏，此时应该会弹出用户许可协议，点击确认，开始游戏 0x04 安装ARCore时GooglePlay提示“该设备不支持”的解决方法1.刷入Magisk(推荐19版)2.在Magisk Manager下载栏内下载ARCore/Playground Patcher，刷入，重启3.启动GooglePlay，此时你应该能够安装ARCore了 0x05 Q&amp;AQ.给个梯子？A.我拒绝，自己找Q.无法安装MinecraftEarthA.检查Android版本，推荐N,O或PQ.没有Root能用吗？A.如果你的手机自带Google4件套和ARCore的话就行Q.游戏黑屏A.手机问题，氪金解决Q.游戏内无法移动A.请使用专业版FakeLocation，没钱就换个定位软件Q.你是不是在给FL打广告？A.爱用用不用丨Q.还有别的问题A.评论区，请]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[哪吒之魔童降世观后感]]></title>
-    <url>%2Fumauc.github.io%2F%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96%E8%A7%82%E5%90%8E%E6%84%9F.html</url>
+    <url>%2F%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96%E8%A7%82%E5%90%8E%E6%84%9F.html</url>
     <content type="text"><![CDATA[最近被基友拉着去看了《哪吒之魔童降世》,有感而发(咕了五个月才憋出来的一篇文章) 优点 画风优良作为一部动画电影,如果其展现给观众的画面本身就参差人意,即使剧情再好,也很难吸引观众.在画风这点上,哪吒做的相当好. 感情线哪吒与李靖的关系被大大的扭转(对比原著),父慈子孝的话个人认为也没什么缺点.与敖丙的友情线也可圈可点.在亲情这条线上以毽子做象征,相当催泪 剧情独特是一般通过正能量剧情,大可放心.’我命由我不由天’的主张也比较符合当今时代年轻人的思想 缺点 泛滥的低素质笑话过于老套,笑话能让人立马猜出来的那种 女性模型我现在怀疑是不是所有3D动画的女性模型都是尖下巴的… 总结瑕不掩瑜,推荐观看,分类等级大概为PG级]]></content>
   </entry>
   <entry>
     <title><![CDATA[如何破解百度云限速]]></title>
-    <url>%2Fumauc.github.io%2F%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E7%99%BE%E5%BA%A6%E4%BA%91%E9%99%90%E9%80%9F.html</url>
+    <url>%2F%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E7%99%BE%E5%BA%A6%E4%BA%91%E9%99%90%E9%80%9F.html</url>
     <content type="text"><![CDATA[好久没写博客了主要是懒,为了证明自己还活着,特来发篇教程 用别的方式不好吗?众所周知并不,百度云已经开启了账号限速功能,只要超过流量阀值,就会自动限速这招成功压制了大部分第三方下载工具(Pandownload,速盘,IDM+脚本等),但是这次的软件可以无视这些限速(未限速账号可跑满带宽,已限速账号可以跑到1M/s) 准备工作首先,下载BaiduPCS-Go ,打开,登陆(执行 login)登陆成功后,在窗口内输入如下命令 config set –appid 265486之后可对配置进行调教(加线程之类的),自行参考README.md关闭程序,在浏览器中登陆后访问这里不管报不报错,检查是否存在/我的应用数据/baidu_shurufa 这个文件夹,存在的话,准备工作就完成了(没有就手动建一个) 开始下载将你想要下载的文件复制到/我的应用数据/baidu_shurufa ,然后进入BaiduPCS-Go,执行如下命令 cd /apps/baidu_shurufa然后执行 d {你要下载的文件名},就可以开始下载了(下载后的文件一般储存在 程序所在的文件夹/Downloads) 参考资料https://shimo.im/docs/DkiAbUs9etAFqR3T/read]]></content>
   </entry>
   <entry>
     <title><![CDATA[流浪地球资源]]></title>
-    <url>%2Fumauc.github.io%2F%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83%E8%B5%84%E6%BA%90.html</url>
+    <url>%2F%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83%E8%B5%84%E6%BA%90.html</url>
     <content type="text"><![CDATA[流浪地球算是贺岁档中最火的一部了,本人的知乎几乎被刷屏,足以见得它在国产科幻电影中的重要性(To战狼PTSD患者:吴京在这片里炸了,还不去看?)免责声明:本视频均来自互联网收集而来，版权归原创者所有，如果侵犯了你的权益，请通知我们，我们会及时删除侵权内容，谢谢合作。 下载资源:TC720P(音质警告): magnet:?xt=urn:btih:A96126851F84296151B4152CB18470EF662243A6HC720P: magnet:?xt=urn:btih:84513B2B4DD2F0914937151F7FE50AD1BB55E704HD1080P: magnet:?xt=urn:btih:7B723857ADD3C3D18B337B815B6FC8783BF4DB77在线资源:https://www.bwtvb.com/vod-detail-id-70349.html]]></content>
   </entry>
   <entry>
     <title><![CDATA[[资源收集]NOeSIS1-3(含漫画等)]]></title>
-    <url>%2Fumauc.github.io%2F%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86-NOeSIS1-3-%E5%90%AB%E6%BC%AB%E7%94%BB%E7%AD%89.html</url>
+    <url>%2F%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86-NOeSIS1-3-%E5%90%AB%E6%BC%AB%E7%94%BB%E7%AD%89.html</url>
     <content type="text"><![CDATA[简介NOeSIS是由同好会“Classic Chocolat”的cutlass所创作的系列悬疑AVG作品，同时也是其衍生作品的名称百科 贴吧 NOeSIS 1cg 链接: http://pan.baidu.com/s/1eQd7WeI 密码: f8c5音乐 链接: http://pan.baidu.com/s/1fbZLO 密码: 4x5d文本 链接: http://pan.baidu.com/s/1jILl5Gy 密码：hhpm汉化 EXE版 链接: http://pan.baidu.com/s/1nthx05F 密码: hgmm汉化 apk版 链接: http://pan.baidu.com/s/1sjHNevr 密码: nxq5重置 apk版 链接: https://pan.baidu.com/share/link?shareid=771399986&amp;uk=3927507963 支持作者请到Google Play上购买 *数据包会自动下载,推荐挂VPN重置 cg/视频/BGM 链接: https://pan.baidu.com/share/link?shareid=264285328&amp;uk=1614546658 NOeSIS 2BGM 链接: http://pan.baidu.com/s/1qWFhr7u 密码: 2feoOST 链接: http://pan.baidu.com/s/1i3qtbA9 密码: 9eq1cg 链接: http://pan.baidu.com/s/1o6LWX2E 密码: p8yyONS版 链接: https://pan.baidu.com/s/1ePq5Ie3FX7fXPElYQkhmtA 密码: n3t5汉化:目前无完全汉化,汉化组预计于今年汉化完成,现已放出1-2章汉化,链接: https://pan.baidu.com/s/1gfp58av重置 apk版 链接: https://pan.baidu.com/share/link?shareid=771399986&amp;uk=3927507963 支持作者请到Google Play上购买 *数据包会自动下载,推荐挂VPN重置 cg/视频/BGM 链接: https://pan.baidu.com/share/link?shareid=264285328&amp;uk=1614546658 NOeSIS 3单 APK 文件 链接：https://pan.baidu.com/s/1c2LJq2s 密码：i2eh带数据包 链接：https://pan.baidu.com/s/1nvadRnz 密码：a0dx资源 链接：https://pan.baidu.com/s/1hs4amtY 密码：hleo集合 链接：https://pan.baidu.com/s/1m8JNjl1Cuzmq1l1rk-foIA 密码：jpk5 ,闪退者请下载其中的破解版 外传 色亡的世界集合 链接: https://pan.baidu.com/s/1AjVGnaAwLbmYPTj-kHWbyg 密码: 3qms汉化 链接: https://www.lanzous.com/i2edvoj 小说http://tieba.baidu.com/p/3793639036 1卷千夜の章（前篇）http://tieba.baidu.com/p/3997546320 2卷千夜の章（后篇）http://tieba.baidu.com/p/4814551685 3卷小夜美の章http://tieba.baidu.com/p/5993304330 4卷忧姬之章 漫画01话：http://tieba.baidu.com/p/205924800602话：http://tieba.baidu.com/p/210769202803话：http://tieba.baidu.com/p/217940588404话：http://tieba.baidu.com/p/223844947105话：http://tieba.baidu.com/p/230438659606话：http://tieba.baidu.com/p/237599476107话：http://tieba.baidu.com/p/243379659808话：http://tieba.baidu.com/p/255562210709话：http://tieba.baidu.com/p/308593414310话：http://tieba.baidu.com/p/309871195811话：没有图源12话：http://tieba.baidu.com/p/301887982813话：同上14话：http://tieba.baidu.com/p/302195168715话：http://tieba.baidu.com/p/302198755816话：http://tieba.baidu.com/p/300308244217话：http://tieba.baidu.com/p/304587717618话：http://tieba.baidu.com/p/311623453319话：http://tieba.baidu.com/p/317454314520话：http://tieba.baidu.com/p/324828911521话：http://tieba.baidu.com/p/331283608222话：http://tieba.baidu.com/p/336310052723话：http://tieba.baidu.com/p/3424875116最终话 http://tieba.baidu.com/p/3513002586 广播剧http://pan.baidu.com/s/1ntOaNK9 参考资料https://tieba.baidu.com/p/5953391807 https://tieba.baidu.com/p/4902102159 https://tieba.baidu.com/p/4939254634 https://tieba.baidu.com/p/5504036544 https://tieba.baidu.com/p/4805093514 https://tieba.baidu.com/p/4011173755 https://tieba.baidu.com/p/3440319280 https://tieba.baidu.com/p/3436050753 https://tieba.baidu.com/p/2736556815 https://tieba.baidu.com/p/3090428667]]></content>
   </entry>
   <entry>
     <title><![CDATA[从零开始的Steam挂卡教程]]></title>
-    <url>%2Fumauc.github.io%2F%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84Steam%E6%8C%82%E5%8D%A1%E6%95%99%E7%A8%8B.html</url>
+    <url>%2F%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84Steam%E6%8C%82%E5%8D%A1%E6%95%99%E7%A8%8B.html</url>
     <content type="text"><![CDATA[最近处于穷酸极饿的状态，但是打游戏的欲望是不会泯灭的然而我依旧很穷既然游戏库里有了一打的游戏虽然大部分都是脚本来的，所以我打算挂卡卖钱 什么是挂卡？游玩Steam游戏时会多多少少get一些Steam集换式卡牌（如图），所以我们可以使用挂卡软件刷卡牌，然后再卖到Steam社区市场上（最多能收集一半） 开始从这里 下载ArchiSteamFarm的最新版本，解压。再到这里 生成配置文件，Name随便填，SteamParentalCode不填，在剩下两行里分别填上自己的Steam用户名和密码，下载后的文件放到解压后文件夹/config里打开ArchiSteamFarm.exe，填入两步验证码，就可以开始挂卡了 卖卡既然卡有了，那接下来肯定要拿去卖的打开市场 ,点击出售物品，之后嘛。。。就看你了 参考资料https://moe.best/yoimono/asf-see.html]]></content>
   </entry>
   <entry>
     <title><![CDATA[杂谈]]></title>
-    <url>%2Fumauc.github.io%2F%E6%9D%82%E8%B0%88.html</url>
+    <url>%2F%E6%9D%82%E8%B0%88.html</url>
     <content type="text"><![CDATA[被备案折磨疯的我，在了解Hexo+Github Pages的操作后，删站跑路，一气呵成不得不说，Hexo算得上是非常简单+轻量了（比起wordpress），路上碰到的坑也少了许多由于使用静态文件，我算是逃离了PHP+MySQL的苦海现在只希望GFW不要墙了Github好像没这可能祝安好2019.1.26于LZ城]]></content>
   </entry>
 </search>
