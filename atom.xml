@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>0x7FFFFF的小窝</title>
+  
+  <subtitle>于希望之世寻绝望之影</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://0x7fffff.top/"/>
+  <updated>2019-08-31T10:49:50.544Z</updated>
+  <id>https://0x7fffff.top/</id>
+  
+  <author>
+    <name>0x7FFFFF</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MinecraftEarth安装教程</title>
+    <link href="https://0x7fffff.top/MinecraftEarth%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.html"/>
+    <id>https://0x7fffff.top/MinecraftEarth安装教程.html</id>
+    <published>2019-08-31T05:00:47.000Z</published>
+    <updated>2019-08-31T10:49:50.544Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="0x00-前言"><a href="#0x00-前言" class="headerlink" title="0x00 前言"></a>0x00 前言</h1><p>最近Minecraft Earth开始内测，本人有幸获得一份安装包，一顿操作之后成功安装，特来水篇教程（求换个Xbox好友，ID：I0x7FFFFF)</p><a id="more"></a><h1 id="0x01-准备工作"><a href="#0x01-准备工作" class="headerlink" title="0x01 准备工作"></a>0x01 准备工作</h1><ul><li>MinecraftEarth:<br><a href="https://jq.qq.com/?_wv=1027&k=5Hn4tpQ" target="_blank" rel="noopener">加群下载</a></li><li>Fake Location (或任意虚拟定位软件):<br><a href="https://share.weiyun.com/5BJZZFm" target="_blank" rel="noopener">下载</a></li><li>梯子(推荐伦敦、西雅图、斯德哥尔摩、东京、墨西哥城IP的,测试除中国IP外皆可[本人新加坡]):不提供</li><li>Google4件套(推荐Nano版本，使用方法自行百度，可使用各种安装器):<br><a href="https://opengapps.org/" target="_blank" rel="noopener">下载</a> </li><li>Magisk(非必须,刷机警告):<br><a href="https://github.com/topjohnwu/Magisk" target="_blank" rel="noopener">下载</a></li><li>ARCore(面向AR的GooglePlay服务):<br><a href="https://play.google.com/store/apps/details?id=com.google.ar.core/" target="_blank" rel="noopener">Google Play</a></li><li>ARCore/Playground Patcher(非必须):Magisk Manager内下载</li><li>Root</li><li>Google&amp;Microsoft账号(区域不限)</li><li>基岩版Minecraft</li></ul><h1 id="0x02-完美支持ARCore的设备列表"><a href="#0x02-完美支持ARCore的设备列表" class="headerlink" title="0x02 完美支持ARCore的设备列表"></a>0x02 完美支持ARCore的设备列表</h1><p><font color="red">设备不支持的也可以玩,只是无法使用建筑/好友功能</font></p><table><thead><tr><th>厂商</th><th align="center">型号</th><th align="right">注意事项</th></tr></thead><tbody><tr><td>Acer</td><td align="center">Chromebook Tab 10</td><td align="right">要求 ChromeOS 稳定版 69 或者更高版本.</td></tr><tr><td>Asus</td><td align="center">ROG Phone</td><td align="right"></td></tr><tr><td></td><td align="center">Zenfone 6</td><td align="right"></td></tr><tr><td></td><td align="center">Zenfone AR</td><td align="right"></td></tr><tr><td></td><td align="center">Zenfone ARES</td><td align="right"></td></tr><tr><td>General Mobile</td><td align="center">GM 9 Plus</td><td align="right"></td></tr><tr><td>Google</td><td align="center">Nexus 5X</td><td align="right">要求 Android 8.0 或者更高版本.</td></tr><tr><td></td><td align="center">Nexus 6P</td><td align="right">要求 Android 8.0 或者更高版本.</td></tr><tr><td></td><td align="center">Pixel, Pixel XL</td><td align="right"></td></tr><tr><td></td><td align="center">Pixel 2, Pixel 2 XL</td><td align="right">Supports 60 fps camera capture frame rate on the rear-facing camera</td></tr><tr><td></td><td align="center">Pixel 3, Pixel 3 XL</td><td align="right">Supports 60 fps camera capture frame rate on the rear-facing camera</td></tr><tr><td></td><td align="center">Pixel 3a, Pixel 3a XL</td><td align="right"></td></tr><tr><td>HMD Global</td><td align="center">Nokia 6 (2018)</td><td align="right">也称为 Nokia 6.1</td></tr><tr><td></td><td align="center">Nokia 6.1 Plus</td><td align="right"></td></tr><tr><td></td><td align="center">Nokia 7 Plus</td><td align="right"></td></tr><tr><td></td><td align="center">Nokia 7.1</td><td align="right"></td></tr><tr><td></td><td align="center">Nokia 8</td><td align="right">要求 Android 8.0 或者更高版本.</td></tr><tr><td></td><td align="center">Nokia 8 Sirocco</td><td align="right"></td></tr><tr><td></td><td align="center">Nokia 8.1</td><td align="right"></td></tr><tr><td>Huawei</td><td align="center">Honor 8X, Honor 10</td><td align="right"></td></tr><tr><td></td><td align="center">Honor View 10 Lite</td><td align="right"></td></tr><tr><td></td><td align="center">Honor V20</td><td align="right"></td></tr><tr><td></td><td align="center">Mate 20 Lite, Mate 20, Mate 20 Pro, Mate 20 X</td><td align="right"></td></tr><tr><td></td><td align="center">Nova 3, Nova 3i</td><td align="right"></td></tr><tr><td></td><td align="center">Nova 4</td><td align="right"></td></tr><tr><td></td><td align="center">P20, P20 Pro</td><td align="right"></td></tr><tr><td></td><td align="center">P30, P30 Pro</td><td align="right"></td></tr><tr><td></td><td align="center">Porsche Design Mate RS,Porsche Design Mate 20 RS</td><td align="right"></td></tr><tr><td></td><td align="center">Y9 2019</td><td align="right"></td></tr><tr><td>LG</td><td align="center">G6</td><td align="right">要求 Android 8.0 或者更高版本.</td></tr><tr><td></td><td align="center">G7 Fit, G7 One</td><td align="right"></td></tr><tr><td></td><td align="center">G7 ThinQ</td><td align="right">ARCore 使用广角定焦后置摄像头来实现 AR 追踪.</td></tr><tr><td></td><td align="center">G8 ThinQ, G8S ThinQ</td><td align="right">ARCore 使用广角定焦后置摄像头来实现 AR 追踪.</td></tr><tr><td></td><td align="center">Q6</td><td align="right"></td></tr><tr><td></td><td align="center">Q8</td><td align="right"></td></tr><tr><td></td><td align="center">style2</td><td align="right">ARCore 使用广角定焦后置摄像头来实现 AR 追踪.</td></tr><tr><td></td><td align="center">Stylo 5</td><td align="right"></td></tr><tr><td></td><td align="center">V30, V30+, V30+ JOJO,LG Signature Edition 2017</td><td align="right">要求 Android 8.0 或者更高版本,ARCore 使用广角定焦后置摄像头来实现 AR 追踪.</td></tr><tr><td></td><td align="center">V35 ThinQ,LG Signature Edition 2018</td><td align="right">ARCore 使用广角定焦后置摄像头来实现 AR 追踪.</td></tr><tr><td></td><td align="center">V40 ThinQ</td><td align="right"></td></tr><tr><td></td><td align="center">V50 ThinQ</td><td align="right">ARCore 使用广角定焦后置摄像头来实现 AR 追踪.</td></tr><tr><td>Infinix Mobile</td><td align="center">Note 6</td><td align="right"></td></tr><tr><td>Motorola</td><td align="center">moto g⁵ˢ plus</td><td align="right"></td></tr><tr><td></td><td align="center">moto g⁶, moto g⁶ plus</td><td align="right"></td></tr><tr><td></td><td align="center">moto g⁷, moto g⁷ plus, moto g⁷ power, moto g⁷ play</td><td align="right"></td></tr><tr><td></td><td align="center">motorola one, motorola one power</td><td align="right"></td></tr><tr><td></td><td align="center">motorola one vision</td><td align="right"></td></tr><tr><td></td><td align="center">moto x⁴</td><td align="right">要求 Android 8.0 或者更高版本.</td></tr><tr><td></td><td align="center">moto z² force</td><td align="right">要求 Android 8.0 或者更高版本.</td></tr><tr><td></td><td align="center">moto z³, moto z³ play</td><td align="right"></td></tr><tr><td></td><td align="center">moto z⁴</td><td align="right"></td></tr><tr><td>OnePlus</td><td align="center">OnePlus 3T</td><td align="right">要求 Android 8.0 或者更高版本.</td></tr><tr><td></td><td align="center">OnePlus 5, OnePlus 5T</td><td align="right"></td></tr><tr><td></td><td align="center">OnePlus 6, OnePlus 6T</td><td align="right"></td></tr><tr><td></td><td align="center">OnePlus 7, OnePlus 7 Pro, OnePlus 7 Pro 5G</td><td align="right"></td></tr><tr><td>Oppo</td><td align="center">R17 Pro</td><td align="right"></td></tr><tr><td></td><td align="center">Reno 10x Zoom</td><td align="right"></td></tr><tr><td></td><td align="center">realme X</td><td align="right"></td></tr><tr><td></td><td align="center">realme X Lite</td><td align="right"></td></tr><tr><td>Samsung</td><td align="center">Galaxy A3 (2017)</td><td align="right">要求 Android 8.0 或者更高版本,ARCore 必须使用后置摄像头自动对焦功能 来实现 AR 追踪.</td></tr><tr><td></td><td align="center">Galaxy A5 (2017)</td><td align="right"></td></tr><tr><td></td><td align="center">Galaxy A6 (2018)</td><td align="right"></td></tr><tr><td></td><td align="center">Galaxy A7 (2017), Samsung A7 (2018)</td><td align="right"></td></tr><tr><td></td><td align="center">Galaxy A8, Galaxy A8+ (2018)</td><td align="right"></td></tr><tr><td></td><td align="center">Galaxy A30, Galaxy A40, Galaxy A50, Galaxy A60, Galaxy A70, Galaxy A80</td><td align="right"></td></tr><tr><td></td><td align="center">Galaxy J5 (2017), Galaxy J5 Pro</td><td align="right">SM-J530 型号</td></tr><tr><td></td><td align="center">Galaxy J7 (2017), Galaxy J7 Pro</td><td align="right">SM-J730 型号</td></tr><tr><td></td><td align="center">Galaxy Note8</td><td align="right"></td></tr><tr><td></td><td align="center">Galaxy Note9</td><td align="right"></td></tr><tr><td></td><td align="center">Galaxy Note10, Galaxy Note10+</td><td align="right"></td></tr><tr><td></td><td align="center">Galaxy S7, Galaxy S7 edge</td><td align="right"></td></tr><tr><td></td><td align="center">Galaxy S8, Galaxy S8+</td><td align="right"></td></tr><tr><td></td><td align="center">Galaxy S9, Galaxy S9+</td><td align="right"></td></tr><tr><td></td><td align="center">Galaxy S10e, Galaxy S10, Galaxy S10+, Galaxy S10 5G</td><td align="right"></td></tr><tr><td></td><td align="center">Galaxy Tab S3</td><td align="right">ARCore 必须使用后置摄像头自动对焦功能 来实现 AR 追踪.</td></tr><tr><td></td><td align="center">Galaxy Tab S4, Galaxy Tab S5e</td><td align="right"></td></tr><tr><td>Sharp</td><td align="center">AQUOS R3</td><td align="right"></td></tr><tr><td>Sony</td><td align="center">Xperia XZ Premium</td><td align="right">要求 Android 8.0 或者更高版本.</td></tr><tr><td></td><td align="center">Xperia XZ1, Xperia XZ1 Compact</td><td align="right">要求 Android 8.0 或者更高版本.</td></tr><tr><td></td><td align="center">Xperia XZ2, Xperia XZ2 Compact, Xperia XZ2 Premium</td><td align="right">要求 Android 8.0 或者更高版本，并安装 2018 年 8 月以后的软件更新（安全补丁程序为 2018-08-05 或更高版本).</td></tr><tr><td></td><td align="center">Xperia XZ3</td><td align="right"></td></tr><tr><td></td><td align="center">Xperia 1</td><td align="right"></td></tr><tr><td>Tecno</td><td align="center">Phantom 9</td><td align="right"></td></tr><tr><td>Vivo</td><td align="center">NEX S</td><td align="right"></td></tr><tr><td></td><td align="center">NEX Dual Display Edition</td><td align="right"></td></tr><tr><td></td><td align="center">Xiaomi</td><td align="right">Mi 8, Mi 8 SE</td></tr><tr><td></td><td align="center">Mi 9, Mi 9 SE</td><td align="right"></td></tr><tr><td></td><td align="center">Mi A3</td><td align="right"></td></tr><tr><td></td><td align="center">Mi Mix 2S</td><td align="right"></td></tr><tr><td></td><td align="center">Mi Mix 3</td><td align="right"></td></tr><tr><td></td><td align="center">Pocophone F1</td><td align="right"></td></tr><tr><td>Zebra</td><td align="center">TC52 WLAN Touch Computer</td><td align="right"></td></tr><tr><td></td><td align="center">TC57 WWAN Touch Computer</td><td align="right"></td></tr><tr><td></td><td align="center">TC72 WLAN Touch Computer</td><td align="right"></td></tr><tr><td></td><td align="center">TC77 WWAN Touch Computer</td><td align="right"></td></tr></tbody></table><h1 id="0x03-部署"><a href="#0x03-部署" class="headerlink" title="0x03 部署"></a>0x03 部署</h1><p>0.全程挂梯子<br>1.刷入Google4件套<br>2.安装Minecraft<br>3.安装Minecraft Earth<br>4.在Google Play安装ARCore(设备不支持者跳转0x03)<br>5.启动Fake Location，并将定位位置设置为伦敦\西雅图\斯德哥尔摩\东京\墨西哥城的其中一处<br>6.启动Minecraft Earth，等待游戏更新<br>7.重启<br>8.在游戏内登录Microsoft账号<br>9.重启<br>10.启动游戏，此时应该会弹出用户许可协议，点击确认，开始游戏</p><h1 id="0x04-安装ARCore时GooglePlay提示“该设备不支持”的解决方法"><a href="#0x04-安装ARCore时GooglePlay提示“该设备不支持”的解决方法" class="headerlink" title="0x04 安装ARCore时GooglePlay提示“该设备不支持”的解决方法"></a>0x04 安装ARCore时GooglePlay提示“该设备不支持”的解决方法</h1><p>1.刷入Magisk(推荐19版)<br>2.在Magisk Manager下载栏内下载ARCore/Playground Patcher，刷入，重启<br>3.启动GooglePlay，此时你应该能够安装ARCore了</p><h1 id="0x05-Q-amp-A"><a href="#0x05-Q-amp-A" class="headerlink" title="0x05 Q&amp;A"></a>0x05 Q&amp;A</h1><p>Q.给个梯子？<br>A.我拒绝，自己找<br>Q.无法安装MinecraftEarth<br>A.检查Android版本，最低7.0<br>Q.没有Root能用吗？<br>A.如果你的手机自带Google4件套和ARCore的话就行<br>Q.游戏黑屏<br>A.手机问题，氪金解决<br>Q.游戏内无法移动<br>A.请使用专业版FakeLocation，没钱就换个定位软件<br>Q.你是不是在给FL打广告？<br>A.爱用用不用丨<br>Q.还有别的问题<br>A.评论区，请</p><h1 id="0x06-已知bug"><a href="#0x06-已知bug" class="headerlink" title="0x06 已知bug"></a>0x06 已知bug</h1><p>1.无法建筑(疑似未受邀玩家限制/强行安装ARCore的后果)<br>2.添加好友功能无效(强装ARCore的后果)<br>2.各种闪退</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;0x00-前言&quot;&gt;&lt;a href=&quot;#0x00-前言&quot; class=&quot;headerlink&quot; title=&quot;0x00 前言&quot;&gt;&lt;/a&gt;0x00 前言&lt;/h1&gt;&lt;p&gt;最近Minecraft Earth开始内测，本人有幸获得一份安装包，一顿操作之后成功安装，特来水篇教程（求换个Xbox好友，ID：I0x7FFFFF)&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>哪吒之魔童降世观后感</title>
+    <link href="https://0x7fffff.top/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96%E8%A7%82%E5%90%8E%E6%84%9F.html"/>
+    <id>https://0x7fffff.top/哪吒之魔童降世观后感.html</id>
+    <published>2019-08-16T04:09:43.000Z</published>
+    <updated>2019-08-16T04:42:11.508Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近被基友拉着去看了《哪吒之魔童降世》,有感而发(咕了五个月才憋出来的一篇文章)</p><a id="more"></a><ul><li><p>优点</p><ul><li>画风优良<br>作为一部动画电影,如果其展现给观众的画面本身就参差人意,即使剧情再好,也很难吸引观众.在画风这点上,哪吒做的相当好.</li></ul><ul><li>感情线<br>哪吒与李靖的关系被大大的扭转(对比原著),父慈子孝的话个人认为也没什么缺点.与敖丙的友情线也可圈可点.在亲情这条线上以毽子做象征,相当催泪</li></ul><ul><li>剧情独特<br>是一般通过正能量剧情,大可放心.’我命由我不由天’的主张也比较符合当今时代年轻人的思想</li></ul></li></ul><ul><li><p>缺点</p><ul><li>泛滥的低素质笑话<br>过于老套,笑话能让人立马猜出来的那种</li></ul><ul><li>女性模型<br>我现在怀疑是不是所有3D动画的女性模型都是尖下巴的…</li></ul></li></ul><ul><li>总结<br>瑕不掩瑜,推荐观看,分类等级大概为PG级</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近被基友拉着去看了《哪吒之魔童降世》,有感而发(咕了五个月才憋出来的一篇文章)&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>如何破解百度云限速</title>
+    <link href="https://0x7fffff.top/%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E7%99%BE%E5%BA%A6%E4%BA%91%E9%99%90%E9%80%9F.html"/>
+    <id>https://0x7fffff.top/如何破解百度云限速.html</id>
+    <published>2019-03-03T04:24:32.000Z</published>
+    <updated>2019-03-03T06:27:17.435Z</updated>
+    
+    <content type="html"><![CDATA[<p>好久没写博客了<del>主要是懒</del>,为了证明自己还活着,特来发篇教程</p><a id="more"></a><h1 id="用别的方式不好吗"><a href="#用别的方式不好吗" class="headerlink" title="用别的方式不好吗?"></a>用别的方式不好吗?</h1><p>众所周知<del>并不</del>,百度云已经开启了账号限速功能,只要超过流量阀值,就会自动限速<br>这招成功压制了大部分第三方下载工具(Pandownload,速盘,IDM+脚本等),但是这次的软件可以无视这些限速(未限速账号可跑满带宽,已限速账号可以跑到1M/s)</p><h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>首先,下载<a href="https://github.com/iikira/BaiduPCS-Go" target="_blank" rel="noopener">BaiduPCS-Go</a> ,打开,登陆(执行 login)<br>登陆成功后,在窗口内输入如下命令 config set –appid 265486<br>之后可对配置进行调教(加线程之类的),自行参考README.md<br>关闭程序,在浏览器中登陆后访问<a href="http://pcs.baidu.com/rest/2.0/pcs/file?app_id=265486&method=list&path=%2F" target="_blank" rel="noopener">这里</a><br>不管报不报错,检查是否存在/我的应用数据/baidu_shurufa 这个文件夹,存在的话,准备工作就完成了(没有就手动建一个)</p><h1 id="开始下载"><a href="#开始下载" class="headerlink" title="开始下载"></a>开始下载</h1><p>将你想要下载的文件复制到/我的应用数据/baidu_shurufa ,然后进入BaiduPCS-Go,执行如下命令 cd /apps/baidu_shurufa<br>然后执行 d {你要下载的文件名},就可以开始下载了(下载后的文件一般储存在 程序所在的文件夹/Downloads)</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://shimo.im/docs/DkiAbUs9etAFqR3T/read" target="_blank" rel="noopener">https://shimo.im/docs/DkiAbUs9etAFqR3T/read</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;好久没写博客了&lt;del&gt;主要是懒&lt;/del&gt;,为了证明自己还活着,特来发篇教程&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>流浪地球资源</title>
+    <link href="https://0x7fffff.top/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83%E8%B5%84%E6%BA%90.html"/>
+    <id>https://0x7fffff.top/流浪地球资源.html</id>
+    <published>2019-02-08T05:42:00.000Z</published>
+    <updated>2019-02-08T05:54:31.662Z</updated>
+    
+    <content type="html"><![CDATA[<p>流浪地球算是贺岁档中最火的一部了,本人的知乎几乎被刷屏,足以见得它在国产科幻电影中的重要性(To战狼PTSD患者:吴京在这片里炸了,还不去看?)<br>免责声明:本视频均来自互联网收集而来，版权归原创者所有，如果侵犯了你的权益，请通知我们，我们会及时删除侵权内容，谢谢合作。</p><a id="more"></a><p>下载资源:<br>TC720P(音质警告): magnet:?xt=urn:btih:A96126851F84296151B4152CB18470EF662243A6<br>HC720P: magnet:?xt=urn:btih:84513B2B4DD2F0914937151F7FE50AD1BB55E704<br>HD1080P: magnet:?xt=urn:btih:7B723857ADD3C3D18B337B815B6FC8783BF4DB77<br>在线资源:<br><a href="https://www.bwtvb.com/vod-detail-id-70349.html" target="_blank" rel="noopener">https://www.bwtvb.com/vod-detail-id-70349.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;流浪地球算是贺岁档中最火的一部了,本人的知乎几乎被刷屏,足以见得它在国产科幻电影中的重要性(To战狼PTSD患者:吴京在这片里炸了,还不去看?)&lt;br&gt;免责声明:本视频均来自互联网收集而来，版权归原创者所有，如果侵犯了你的权益，请通知我们，我们会及时删除侵权内容，谢谢合作。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>[资源收集]NOeSIS1-3(含漫画等)</title>
+    <link href="https://0x7fffff.top/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86-NOeSIS1-3-%E5%90%AB%E6%BC%AB%E7%94%BB%E7%AD%89.html"/>
+    <id>https://0x7fffff.top/资源收集-NOeSIS1-3-含漫画等.html</id>
+    <published>2019-01-31T01:34:44.000Z</published>
+    <updated>2019-02-01T02:56:53.216Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>NOeSIS是由同好会“Classic Chocolat”的cutlass所创作的系列悬疑AVG作品，同时也是其衍生作品的名称<br><a href="https://baike.baidu.com/link?url=ZwYXPYlNyesbdZUbnbcO6HQejzScbU-p8wrnVCTi2N8LAk34a0kVKkG_vCSuio85PbwUuXiLrFU06iEc6lK1B_" target="_blank" rel="noopener">百科</a> <a href="https://tieba.baidu.com/f?kw=noesis虚假的记忆物语" target="_blank" rel="noopener">贴吧</a></p><a id="more"></a><h1 id="NOeSIS-1"><a href="#NOeSIS-1" class="headerlink" title="NOeSIS 1"></a>NOeSIS 1</h1><p>cg 链接: <a href="http://pan.baidu.com/s/1eQd7WeI" target="_blank" rel="noopener">http://pan.baidu.com/s/1eQd7WeI</a> 密码: f8c5<br>音乐 链接: <a href="http://pan.baidu.com/s/1fbZLO" target="_blank" rel="noopener">http://pan.baidu.com/s/1fbZLO</a> 密码: 4x5d<br>文本 链接: <a href="http://pan.baidu.com/s/1jILl5Gy" target="_blank" rel="noopener">http://pan.baidu.com/s/1jILl5Gy</a> 密码：hhpm<br>汉化 EXE版 链接: <a href="http://pan.baidu.com/s/1nthx05F" target="_blank" rel="noopener">http://pan.baidu.com/s/1nthx05F</a> 密码: hgmm<br>汉化 apk版 链接: <a href="http://pan.baidu.com/s/1sjHNevr" target="_blank" rel="noopener">http://pan.baidu.com/s/1sjHNevr</a> 密码: nxq5<br>重置 apk版 链接: <a href="https://pan.baidu.com/share/link?shareid=771399986&amp;uk=3927507963" target="_blank" rel="noopener">https://pan.baidu.com/share/link?shareid=771399986&amp;uk=3927507963</a> 支持作者请到Google Play上购买 *数据包会自动下载,推荐挂VPN<br>重置 cg/视频/BGM 链接: <a href="https://pan.baidu.com/share/link?shareid=264285328&amp;uk=1614546658" target="_blank" rel="noopener">https://pan.baidu.com/share/link?shareid=264285328&amp;uk=1614546658</a></p><h1 id="NOeSIS-2"><a href="#NOeSIS-2" class="headerlink" title="NOeSIS 2"></a>NOeSIS 2</h1><p>BGM 链接: <a href="http://pan.baidu.com/s/1qWFhr7u" target="_blank" rel="noopener">http://pan.baidu.com/s/1qWFhr7u</a> 密码: 2feo<br>OST 链接: <a href="http://pan.baidu.com/s/1i3qtbA9" target="_blank" rel="noopener">http://pan.baidu.com/s/1i3qtbA9</a> 密码: 9eq1<br>cg 链接: <a href="http://pan.baidu.com/s/1o6LWX2E" target="_blank" rel="noopener">http://pan.baidu.com/s/1o6LWX2E</a> 密码: p8yy<br>ONS版 链接: <a href="https://pan.baidu.com/s/1ePq5Ie3FX7fXPElYQkhmtA" target="_blank" rel="noopener">https://pan.baidu.com/s/1ePq5Ie3FX7fXPElYQkhmtA</a> 密码: n3t5<br>汉化:目前无完全汉化,汉化组预计于今年汉化完成,现已放出1-2章汉化,链接: <a href="https://pan.baidu.com/s/1gfp58av" target="_blank" rel="noopener">https://pan.baidu.com/s/1gfp58av</a><br>重置 apk版 链接: <a href="https://pan.baidu.com/share/link?shareid=771399986&amp;uk=3927507963" target="_blank" rel="noopener">https://pan.baidu.com/share/link?shareid=771399986&amp;uk=3927507963</a> 支持作者请到Google Play上购买 *数据包会自动下载,推荐挂VPN<br>重置 cg/视频/BGM 链接: <a href="https://pan.baidu.com/share/link?shareid=264285328&amp;uk=1614546658" target="_blank" rel="noopener">https://pan.baidu.com/share/link?shareid=264285328&amp;uk=1614546658</a></p><h1 id="NOeSIS-3"><a href="#NOeSIS-3" class="headerlink" title="NOeSIS 3"></a>NOeSIS 3</h1><p>单 APK 文件 链接：<a href="https://pan.baidu.com/s/1c2LJq2s" target="_blank" rel="noopener">https://pan.baidu.com/s/1c2LJq2s</a> 密码：i2eh<br>带数据包 链接：<a href="https://pan.baidu.com/s/1nvadRnz" target="_blank" rel="noopener">https://pan.baidu.com/s/1nvadRnz</a> 密码：a0dx<br>资源 链接：<a href="https://pan.baidu.com/s/1hs4amtY" target="_blank" rel="noopener">https://pan.baidu.com/s/1hs4amtY</a> 密码：hleo<br>集合 链接：<a href="https://pan.baidu.com/s/1m8JNjl1Cuzmq1l1rk-foIA" target="_blank" rel="noopener">https://pan.baidu.com/s/1m8JNjl1Cuzmq1l1rk-foIA</a> 密码：jpk5 ,闪退者请下载其中的破解版</p><h1 id="外传-色亡的世界"><a href="#外传-色亡的世界" class="headerlink" title="外传 色亡的世界"></a>外传 色亡的世界</h1><p>集合 链接: <a href="https://pan.baidu.com/s/1AjVGnaAwLbmYPTj-kHWbyg" target="_blank" rel="noopener">https://pan.baidu.com/s/1AjVGnaAwLbmYPTj-kHWbyg</a> 密码: 3qms<br>汉化 链接: <a href="https://www.lanzous.com/i2edvoj" target="_blank" rel="noopener">https://www.lanzous.com/i2edvoj</a></p><h1 id="小说"><a href="#小说" class="headerlink" title="小说"></a>小说</h1><p><a href="http://tieba.baidu.com/p/3793639036" target="_blank" rel="noopener">http://tieba.baidu.com/p/3793639036</a> 1卷千夜の章（前篇）<br><a href="http://tieba.baidu.com/p/3997546320" target="_blank" rel="noopener">http://tieba.baidu.com/p/3997546320</a> 2卷千夜の章（后篇）<br><a href="http://tieba.baidu.com/p/4814551685" target="_blank" rel="noopener">http://tieba.baidu.com/p/4814551685</a> 3卷小夜美の章<br><a href="http://tieba.baidu.com/p/5993304330" target="_blank" rel="noopener">http://tieba.baidu.com/p/5993304330</a> 4卷忧姬之章</p><h1 id="漫画"><a href="#漫画" class="headerlink" title="漫画"></a>漫画</h1><p>01话：<a href="http://tieba.baidu.com/p/2059248006" target="_blank" rel="noopener">http://tieba.baidu.com/p/2059248006</a><br>02话：<a href="http://tieba.baidu.com/p/2107692028" target="_blank" rel="noopener">http://tieba.baidu.com/p/2107692028</a><br>03话：<a href="http://tieba.baidu.com/p/2179405884" target="_blank" rel="noopener">http://tieba.baidu.com/p/2179405884</a><br>04话：<a href="http://tieba.baidu.com/p/2238449471" target="_blank" rel="noopener">http://tieba.baidu.com/p/2238449471</a><br>05话：<a href="http://tieba.baidu.com/p/2304386596" target="_blank" rel="noopener">http://tieba.baidu.com/p/2304386596</a><br>06话：<a href="http://tieba.baidu.com/p/2375994761" target="_blank" rel="noopener">http://tieba.baidu.com/p/2375994761</a><br>07话：<a href="http://tieba.baidu.com/p/2433796598" target="_blank" rel="noopener">http://tieba.baidu.com/p/2433796598</a><br>08话：<a href="http://tieba.baidu.com/p/2555622107" target="_blank" rel="noopener">http://tieba.baidu.com/p/2555622107</a><br>09话：<a href="http://tieba.baidu.com/p/3085934143" target="_blank" rel="noopener">http://tieba.baidu.com/p/3085934143</a><br>10话：<a href="http://tieba.baidu.com/p/3098711958" target="_blank" rel="noopener">http://tieba.baidu.com/p/3098711958</a><br>11话：没有图源<br>12话：<a href="http://tieba.baidu.com/p/3018879828" target="_blank" rel="noopener">http://tieba.baidu.com/p/3018879828</a><br>13话：同上<br>14话：<a href="http://tieba.baidu.com/p/3021951687" target="_blank" rel="noopener">http://tieba.baidu.com/p/3021951687</a><br>15话：<a href="http://tieba.baidu.com/p/3021987558" target="_blank" rel="noopener">http://tieba.baidu.com/p/3021987558</a><br>16话：<a href="http://tieba.baidu.com/p/3003082442" target="_blank" rel="noopener">http://tieba.baidu.com/p/3003082442</a><br>17话：<a href="http://tieba.baidu.com/p/3045877176" target="_blank" rel="noopener">http://tieba.baidu.com/p/3045877176</a><br>18话：<a href="http://tieba.baidu.com/p/3116234533" target="_blank" rel="noopener">http://tieba.baidu.com/p/3116234533</a><br>19话：<a href="http://tieba.baidu.com/p/3174543145" target="_blank" rel="noopener">http://tieba.baidu.com/p/3174543145</a><br>20话：<a href="http://tieba.baidu.com/p/3248289115" target="_blank" rel="noopener">http://tieba.baidu.com/p/3248289115</a><br>21话：<a href="http://tieba.baidu.com/p/3312836082" target="_blank" rel="noopener">http://tieba.baidu.com/p/3312836082</a><br>22话：<a href="http://tieba.baidu.com/p/3363100527" target="_blank" rel="noopener">http://tieba.baidu.com/p/3363100527</a><br>23话：<a href="http://tieba.baidu.com/p/3424875116" target="_blank" rel="noopener">http://tieba.baidu.com/p/3424875116</a><br>最终话 <a href="http://tieba.baidu.com/p/3513002586" target="_blank" rel="noopener">http://tieba.baidu.com/p/3513002586</a></p><h1 id="广播剧"><a href="#广播剧" class="headerlink" title="广播剧"></a>广播剧</h1><p><a href="http://pan.baidu.com/s/1ntOaNK9" target="_blank" rel="noopener">http://pan.baidu.com/s/1ntOaNK9</a></p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://tieba.baidu.com/p/5953391807" target="_blank" rel="noopener">https://tieba.baidu.com/p/5953391807</a> <a href="https://tieba.baidu.com/p/4902102159" target="_blank" rel="noopener">https://tieba.baidu.com/p/4902102159</a> <a href="https://tieba.baidu.com/p/4939254634" target="_blank" rel="noopener">https://tieba.baidu.com/p/4939254634</a> <a href="https://tieba.baidu.com/p/5504036544" target="_blank" rel="noopener">https://tieba.baidu.com/p/5504036544</a> <a href="https://tieba.baidu.com/p/4805093514" target="_blank" rel="noopener">https://tieba.baidu.com/p/4805093514</a> <a href="https://tieba.baidu.com/p/4011173755" target="_blank" rel="noopener">https://tieba.baidu.com/p/4011173755</a> <a href="https://tieba.baidu.com/p/3440319280" target="_blank" rel="noopener">https://tieba.baidu.com/p/3440319280</a> <a href="https://tieba.baidu.com/p/3436050753" target="_blank" rel="noopener">https://tieba.baidu.com/p/3436050753</a> <a href="https://tieba.baidu.com/p/2736556815" target="_blank" rel="noopener">https://tieba.baidu.com/p/2736556815</a> <a href="https://tieba.baidu.com/p/3090428667" target="_blank" rel="noopener">https://tieba.baidu.com/p/3090428667</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;NOeSIS是由同好会“Classic Chocolat”的cutlass所创作的系列悬疑AVG作品，同时也是其衍生作品的名称&lt;br&gt;&lt;a href=&quot;https://baike.baidu.com/link?url=ZwYXPYlNyesbdZUbnbcO6HQejzScbU-p8wrnVCTi2N8LAk34a0kVKkG_vCSuio85PbwUuXiLrFU06iEc6lK1B_&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;百科&lt;/a&gt; &lt;a href=&quot;https://tieba.baidu.com/f?kw=noesis虚假的记忆物语&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;贴吧&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>从零开始的Steam挂卡教程</title>
+    <link href="https://0x7fffff.top/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84Steam%E6%8C%82%E5%8D%A1%E6%95%99%E7%A8%8B.html"/>
+    <id>https://0x7fffff.top/从零开始的Steam挂卡教程.html</id>
+    <published>2019-01-26T11:00:50.000Z</published>
+    <updated>2019-02-01T02:57:43.800Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近处于穷酸极饿的状态，但是打游戏的欲望是不会泯灭的<del>然而我依旧很穷</del><br>既然游戏库里有了一打的游戏<del>虽然大部分都是脚本来的</del>，所以我打算挂卡卖钱</p><h1 id="什么是挂卡？"><a href="#什么是挂卡？" class="headerlink" title="什么是挂卡？"></a>什么是挂卡？</h1><p>游玩Steam游戏时会多多少少get一些Steam集换式卡牌（如图），所以我们可以使用挂卡软件刷卡牌，然后再卖到Steam社区市场上（最多能收集一半）</p><a id="more"></a><p><a href="https://imgchr.com/i/kuSCjA" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/26/kuSCjA.png" alt="kuSCjA.png"></a></p><h1 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h1><p>从<a href="https://github.com/JustArchiNET/ArchiSteamFarm/releases" target="_blank" rel="noopener">这里</a> 下载ArchiSteamFarm的最新版本，解压。<br>再到<a href="https://justarchinet.github.io/ASF-WebConfigGenerator/#/bot" target="_blank" rel="noopener">这里</a> 生成配置文件，Name随便填，SteamParentalCode不填，在剩下两行里分别填上自己的Steam用户名和密码，下载后的文件放到解压后文件夹/config里<br>打开ArchiSteamFarm.exe，填入两步验证码，就可以开始挂卡了<br><a href="https://imgchr.com/i/kuCy5V" target="_blank" rel="noopener"><img src="https://s2.ax1x.com/2019/01/26/kuCy5V.png" alt="程序界面"></a></p><h1 id="卖卡"><a href="#卖卡" class="headerlink" title="卖卡"></a>卖卡</h1><p>既然卡有了，那接下来肯定要拿去卖的<br>打开<a href="https://steamcommunity.com/market/" target="_blank" rel="noopener">市场</a> ,点击出售物品，之后嘛。。。就看你了</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://moe.best/yoimono/asf-see.html" target="_blank" rel="noopener">https://moe.best/yoimono/asf-see.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近处于穷酸极饿的状态，但是打游戏的欲望是不会泯灭的&lt;del&gt;然而我依旧很穷&lt;/del&gt;&lt;br&gt;既然游戏库里有了一打的游戏&lt;del&gt;虽然大部分都是脚本来的&lt;/del&gt;，所以我打算挂卡卖钱&lt;/p&gt;
+&lt;h1 id=&quot;什么是挂卡？&quot;&gt;&lt;a href=&quot;#什么是挂卡？&quot; class=&quot;headerlink&quot; title=&quot;什么是挂卡？&quot;&gt;&lt;/a&gt;什么是挂卡？&lt;/h1&gt;&lt;p&gt;游玩Steam游戏时会多多少少get一些Steam集换式卡牌（如图），所以我们可以使用挂卡软件刷卡牌，然后再卖到Steam社区市场上（最多能收集一半）&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>杂谈</title>
+    <link href="https://0x7fffff.top/%E6%9D%82%E8%B0%88.html"/>
+    <id>https://0x7fffff.top/杂谈.html</id>
+    <published>2019-01-26T05:56:39.000Z</published>
+    <updated>2019-01-27T10:29:56.830Z</updated>
+    
+    <content type="html"><![CDATA[<p>被备案折磨疯的我，在了解Hexo+Github Pages的操作后，删站跑路，一气呵成<br>不得不说，Hexo算得上是非常简单+轻量了（比起wordpress），路上碰到的坑也少了许多<br>由于使用静态文件，我算是逃离了PHP+MySQL的苦海<br>现在只希望GFW不要墙了Github<del>好像没这可能</del><br>祝安好<br>2019.1.26<br>于LZ城</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;被备案折磨疯的我，在了解Hexo+Github Pages的操作后，删站跑路，一气呵成&lt;br&gt;不得不说，Hexo算得上是非常简单+轻量了（比起wordpress），路上碰到的坑也少了许多&lt;br&gt;由于使用静态文件，我算是逃离了PHP+MySQL的苦海&lt;br&gt;现在只希望GFW不
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
