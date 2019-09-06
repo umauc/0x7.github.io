@@ -107,7 +107,7 @@
 <meta property="og:image" content="https://s2.ax1x.com/2019/09/01/nSHkFK.jpg">
 <meta property="og:image" content="https://s2.ax1x.com/2019/09/01/nSHEWD.jpg">
 <meta property="og:image" content="https://s2.ax1x.com/2019/09/01/nSH3Y8.jpg">
-<meta property="og:updated_time" content="2019-09-01T06:32:08.965Z">
+<meta property="og:updated_time" content="2019-09-06T10:54:39.884Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="MinecraftEarth安装教程">
 <meta name="twitter:description" content="0x00 前言最近Minecraft Earth开始内测，本人有幸获得一份安装包，一顿操作之后成功安装，特来水篇教程（求换个Xbox好友，ID：I0x7FFFFF)">
@@ -422,7 +422,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-09-01 14:32:08" itemprop="dateModified" datetime="2019-09-01T14:32:08+08:00">2019-09-01</time>
+                <time title="修改时间：2019-09-06 18:54:39" itemprop="dateModified" datetime="2019-09-06T18:54:39+08:00">2019-09-06</time>
               
             
           </span>
@@ -482,8 +482,8 @@
       
         <h1 id="0x00-前言"><a href="#0x00-前言" class="headerlink" title="0x00 前言"></a>0x00 前言</h1><p>最近Minecraft Earth开始内测，本人有幸获得一份安装包，一顿操作之后成功安装，特来水篇教程（求换个Xbox好友，ID：I0x7FFFFF)</p>
 <a id="more"></a>
-<h1 id="0x01-硬件要求"><a href="#0x01-硬件要求" class="headerlink" title="0x01 硬件要求"></a>0x01 硬件要求</h1><p>Android7.0+,<strong>高通处理器(仅高通处理器可以安装谷歌相机)</strong></p>
-<h1 id="0x02-准备工作"><a href="#0x02-准备工作" class="headerlink" title="0x02 准备工作"></a>0x02 准备工作</h1><ul>
+
+<h1 id="0x01-准备工作"><a href="#0x01-准备工作" class="headerlink" title="0x01 准备工作"></a>0x01 准备工作</h1><ul>
 <li>MinecraftEarth:<br><a href="https://jq.qq.com/?_wv=1027&k=5tGLn1a" target="_blank" rel="noopener">加群下载</a></li>
 <li>Fake Location (或任意虚拟定位软件):<br><a href="https://share.weiyun.com/5BJZZFm" target="_blank" rel="noopener">下载</a></li>
 <li>梯子(推荐伦敦、西雅图、斯德哥尔摩、东京、墨西哥城IP的,测试除中国IP外皆可[本人新加坡]):不提供</li>
@@ -491,12 +491,11 @@
 <li>Magisk(非必须,刷机警告):<br><a href="https://github.com/topjohnwu/Magisk" target="_blank" rel="noopener">下载</a></li>
 <li>ARCore(面向AR的GooglePlay服务):<br><a href="https://play.google.com/store/apps/details?id=com.google.ar.core/" target="_blank" rel="noopener">Google Play</a></li>
 <li>ARCore/Playground Patcher(非必须):Magisk Manager内下载</li>
-<li>谷歌相机</li>
+<li>谷歌相机/启用Camera2HAL,Els(高通限定,可跳过)(可使用Scene启用)</li>
 <li>Root</li>
 <li>Google&amp;Microsoft账号(区域不限)</li>
-<li>基岩版Minecraft</li>
 </ul>
-<h1 id="0x03-完美支持ARCore的设备列表"><a href="#0x03-完美支持ARCore的设备列表" class="headerlink" title="0x03 完美支持ARCore的设备列表"></a>0x03 完美支持ARCore的设备列表</h1><p><font color="red">设备不支持的也可以玩,只是无法使用建筑/好友功能</font></p>
+<h1 id="0x02-完美支持ARCore的设备列表"><a href="#0x02-完美支持ARCore的设备列表" class="headerlink" title="0x02 完美支持ARCore的设备列表"></a>0x02 完美支持ARCore的设备列表</h1><p><font color="red">设备不支持的也可以玩,只是无法使用建筑/好友功能</font></p>
 <table>
 <thead>
 <tr>
@@ -933,7 +932,12 @@
 <tr>
 <td></td>
 <td align="center">Xiaomi</td>
-<td align="right">Mi 8, Mi 8 SE</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td></td>
+<td align="center">Mi 8, Mi 8 SE</td>
+<td align="right"></td>
 </tr>
 <tr>
 <td></td>
@@ -981,13 +985,22 @@
 <td align="right"></td>
 </tr>
 </tbody></table>
-<h1 id="0x04-部署"><a href="#0x04-部署" class="headerlink" title="0x04 部署"></a>0x04 部署</h1><p>0.全程挂梯子<br>1.刷入Google4件套<br>2.安装谷歌相机<br>3.安装Minecraft<br>4.安装Minecraft Earth<br>5.在Google Play安装ARCore(设备不支持者跳转0x05)<br>6.启动Fake Location，并将定位位置设置为伦敦\西雅图\斯德哥尔摩\东京\墨西哥城的其中一处<br>7.启动Minecraft Earth，等待游戏更新<br>8.重启<br>9.在游戏内登录Microsoft账号<br>10.重启<br>11.启动游戏，此时应该会弹出用户许可协议，点击确认，开始游戏</p>
-<h1 id="0x05-安装ARCore时GooglePlay提示“该设备不支持”的解决方法"><a href="#0x05-安装ARCore时GooglePlay提示“该设备不支持”的解决方法" class="headerlink" title="0x05 安装ARCore时GooglePlay提示“该设备不支持”的解决方法"></a>0x05 安装ARCore时GooglePlay提示“该设备不支持”的解决方法</h1><p>1.刷入Magisk(推荐19版)<br>2.在Magisk Manager下载栏内下载ARCore/Playground Patcher，刷入，重启<br>3.启动GooglePlay，此时你应该能够安装ARCore了</p>
-<h1 id="0x06-疑难杂症"><a href="#0x06-疑难杂症" class="headerlink" title="0x06 疑难杂症"></a>0x06 疑难杂症</h1><p>1.卡在白屏界面或提示证书错误:从Google Play打开应用。在设备上的Google Play商店中进入Minecraft Earth详情页，点击“打开”应用即可<br>2.卡在黑屏界面:请前往系统设置的应用设置中找到Minecraft Earth，清理应用数据和缓存并重试<br>3.卡在“登录中…”的界面：先关闭系统GPS，进入Minecraft Earth后提示开启定位，此时点击“设置”前往设置页面，开启GPS，再返回游戏<br>4.无法使用建筑/好友功能:请安装谷歌相机</p>
-<h1 id="0x07-效果图"><a href="#0x07-效果图" class="headerlink" title="0x07 效果图"></a>0x07 效果图</h1><p><img src="https://s2.ax1x.com/2019/09/01/nS70Re.jpg" alt="114514"><br><img src="https://s2.ax1x.com/2019/09/01/nSHkFK.jpg" alt="114514"><br><img src="https://s2.ax1x.com/2019/09/01/nSHEWD.jpg" alt="114514"><br><img src="https://s2.ax1x.com/2019/09/01/nSH3Y8.jpg" alt="114514"></p>
-<h1 id="0x08-Q-amp-A"><a href="#0x08-Q-amp-A" class="headerlink" title="0x08 Q&amp;A"></a>0x08 Q&amp;A</h1><p>Q.给个梯子？<br>A.我拒绝，自己找<br>Q.无法安装MinecraftEarth<br>A.检查Android版本，最低7.0<br>Q.没有Root能用吗？<br>A.如果你的手机自带Google4件套和ARCore的话就行<br>Q.你是不是在给FL打广告？<br>A.爱用用不用丨<br>Q.还有别的问题<br>A.评论区，请</p>
-<h1 id="0x09-已知bug"><a href="#0x09-已知bug" class="headerlink" title="0x09 已知bug"></a>0x09 已知bug</h1><p><del>1.无法建筑(疑似未受邀玩家限制/强行安装ARCore的后果)</del>请安装谷歌相机<br><del>2.添加好友功能无效(强装ARCore的后果)</del>同上<br>3.各种闪退</p>
-<h1 id="0x10-参考"><a href="#0x10-参考" class="headerlink" title="0x10 参考"></a>0x10 参考</h1><p><a href="https://www.mcbbs.net/thread-910551-1-1.html" target="_blank" rel="noopener">https://www.mcbbs.net/thread-910551-1-1.html</a></p>
+<h1 id="0x03-部署"><a href="#0x03-部署" class="headerlink" title="0x03 部署"></a>0x03 部署</h1><p>0.全程挂梯子<br>1.刷入Google4件套<br>2.安装谷歌相机/启用Camera2HAL,Els<br>3.安装Minecraft<br>4.安装Minecraft Earth<br>5.在Google Play安装ARCore(设备不支持者跳转0x05)<br>6.启动Fake Location，并将定位位置设置为伦敦\西雅图\斯德哥尔摩\东京\墨西哥城的其中一处<br>7.启动Minecraft Earth，等待游戏更新<br>8.重启<br>9.在游戏内登录Microsoft账号<br>10.重启<br>11.启动游戏，此时应该会弹出用户许可协议，点击确认，开始游戏</p>
+<h1 id="0x04-安装ARCore时GooglePlay提示“该设备不支持”的解决方法"><a href="#0x04-安装ARCore时GooglePlay提示“该设备不支持”的解决方法" class="headerlink" title="0x04 安装ARCore时GooglePlay提示“该设备不支持”的解决方法"></a>0x04 安装ARCore时GooglePlay提示“该设备不支持”的解决方法</h1><p>1.刷入Magisk(推荐19版)<br>2.在Magisk Manager下载栏内下载ARCore/Playground Patcher，刷入，重启<br>3.启动GooglePlay，此时你应该能够安装ARCore了</p>
+<h1 id="0x05-疑难杂症"><a href="#0x05-疑难杂症" class="headerlink" title="0x05 疑难杂症"></a>0x05 疑难杂症</h1><p>1.卡在白屏界面或提示证书错误:从Google Play打开应用。在设备上的Google Play商店中进入Minecraft Earth详情页，点击“打开”应用即可<br>2.卡在黑屏界面:请前往系统设置的应用设置中找到Minecraft Earth，清理应用数据和缓存并重试<br>3.卡在“登录中…”的界面：先关闭系统GPS，进入Minecraft Earth后提示开启定位，此时点击“设置”前往设置页面，开启GPS，再返回游戏<br>4.无法使用建筑/好友功能:请安装谷歌相机/启用Camera2HAL,Els</p>
+<h1 id="0x06-效果图"><a href="#0x06-效果图" class="headerlink" title="0x06 效果图"></a>0x06 效果图</h1><p><img src="https://s2.ax1x.com/2019/09/01/nS70Re.jpg" alt="114514"><br><img src="https://s2.ax1x.com/2019/09/01/nSHkFK.jpg" alt="114514"><br><img src="https://s2.ax1x.com/2019/09/01/nSHEWD.jpg" alt="114514"><br><img src="https://s2.ax1x.com/2019/09/01/nSH3Y8.jpg" alt="114514"></p>
+<h1 id="0x07-Q-amp-A"><a href="#0x07-Q-amp-A" class="headerlink" title="0x07 Q&amp;A"></a>0x07 Q&amp;A</h1><p>Q.给个梯子？<br>A.我拒绝，自己找<br>Q.无法安装MinecraftEarth<br>A.检查Android版本，最低7.0<br>Q.没有Root能用吗？<br>A.如果你的手机自带Google4件套和ARCore的话就行<br>Q.你是不是在给FL打广告？<br>A.爱用用不用丨<br>Q.还有别的问题<br>A.评论区，请</p>
+<h1 id="0x08-已知bug"><a href="#0x08-已知bug" class="headerlink" title="0x08 已知bug"></a>0x08 已知bug</h1><p><del>1.无法建筑(疑似未受邀玩家限制/强行安装ARCore的后果)</del>请安装谷歌相机<br><del>2.添加好友功能无效(强装ARCore的后果)</del>同上<br>3.各种闪退</p>
+<h1 id="0x09-参考"><a href="#0x09-参考" class="headerlink" title="0x09 参考"></a>0x09 参考</h1><p><a href="https://www.mcbbs.net/thread-910551-1-1.html" target="_blank" rel="noopener">https://www.mcbbs.net/thread-910551-1-1.html</a></p>
+<h1 id="0x10-致谢"><a href="#0x10-致谢" class="headerlink" title="0x10 致谢"></a>0x10 致谢</h1><ul>
+<li>感谢Microsoft与Mojang开发的Minecraft</li>
+<li>感谢Google开发的ARCore</li>
+<li>感谢topjohnwu开发的Magisk</li>
+<li>感谢MarcAnt01开发的ARCore/Playground Patcher</li>
+<li>感谢群内的 虚伪够了 提供的MinecraftEarth安装包</li>
+<li>感谢群内的[有人@你]提供的谷歌相机解决方案</li>
+<li>感谢群内某大佬提供的ARCore/Playground Patcher解决方案</li>
+</ul>
 
       
     </div>
@@ -1184,7 +1197,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#0x00-前言"><span class="nav-number">1.</span> <span class="nav-text">0x00 前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x01-硬件要求"><span class="nav-number">2.</span> <span class="nav-text">0x01 硬件要求</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x02-准备工作"><span class="nav-number">3.</span> <span class="nav-text">0x02 准备工作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x03-完美支持ARCore的设备列表"><span class="nav-number">4.</span> <span class="nav-text">0x03 完美支持ARCore的设备列表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x04-部署"><span class="nav-number">5.</span> <span class="nav-text">0x04 部署</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x05-安装ARCore时GooglePlay提示“该设备不支持”的解决方法"><span class="nav-number">6.</span> <span class="nav-text">0x05 安装ARCore时GooglePlay提示“该设备不支持”的解决方法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x06-疑难杂症"><span class="nav-number">7.</span> <span class="nav-text">0x06 疑难杂症</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x07-效果图"><span class="nav-number">8.</span> <span class="nav-text">0x07 效果图</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x08-Q-amp-A"><span class="nav-number">9.</span> <span class="nav-text">0x08 Q&amp;A</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x09-已知bug"><span class="nav-number">10.</span> <span class="nav-text">0x09 已知bug</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x10-参考"><span class="nav-number">11.</span> <span class="nav-text">0x10 参考</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#0x00-前言"><span class="nav-number">1.</span> <span class="nav-text">0x00 前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x01-准备工作"><span class="nav-number">2.</span> <span class="nav-text">0x01 准备工作</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x02-完美支持ARCore的设备列表"><span class="nav-number">3.</span> <span class="nav-text">0x02 完美支持ARCore的设备列表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x03-部署"><span class="nav-number">4.</span> <span class="nav-text">0x03 部署</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x04-安装ARCore时GooglePlay提示“该设备不支持”的解决方法"><span class="nav-number">5.</span> <span class="nav-text">0x04 安装ARCore时GooglePlay提示“该设备不支持”的解决方法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x05-疑难杂症"><span class="nav-number">6.</span> <span class="nav-text">0x05 疑难杂症</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x06-效果图"><span class="nav-number">7.</span> <span class="nav-text">0x06 效果图</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x07-Q-amp-A"><span class="nav-number">8.</span> <span class="nav-text">0x07 Q&amp;A</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x08-已知bug"><span class="nav-number">9.</span> <span class="nav-text">0x08 已知bug</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x09-参考"><span class="nav-number">10.</span> <span class="nav-text">0x09 参考</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#0x10-致谢"><span class="nav-number">11.</span> <span class="nav-text">0x10 致谢</span></a></li></ol></div>
             
 
           </div>
