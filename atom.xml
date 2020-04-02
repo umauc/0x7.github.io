@@ -35,60 +35,6 @@
   </entry>
   
   <entry>
-    <title>哪吒之魔童降世观后感</title>
-    <link href="https://www.0x7fffff.xyz/%E5%93%AA%E5%90%92%E4%B9%8B%E9%AD%94%E7%AB%A5%E9%99%8D%E4%B8%96%E8%A7%82%E5%90%8E%E6%84%9F.html"/>
-    <id>https://www.0x7fffff.xyz/哪吒之魔童降世观后感.html</id>
-    <published>2019-08-16T04:09:43.000Z</published>
-    <updated>2019-08-16T04:42:11.508Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近被基友拉着去看了《哪吒之魔童降世》,有感而发(咕了五个月才憋出来的一篇文章)</p><a id="more"></a><ul><li><p>优点</p><ul><li>画风优良<br>作为一部动画电影,如果其展现给观众的画面本身就参差人意,即使剧情再好,也很难吸引观众.在画风这点上,哪吒做的相当好.</li></ul><ul><li>感情线<br>哪吒与李靖的关系被大大的扭转(对比原著),父慈子孝的话个人认为也没什么缺点.与敖丙的友情线也可圈可点.在亲情这条线上以毽子做象征,相当催泪</li></ul><ul><li>剧情独特<br>是一般通过正能量剧情,大可放心.’我命由我不由天’的主张也比较符合当今时代年轻人的思想</li></ul></li></ul><ul><li><p>缺点</p><ul><li>泛滥的低素质笑话<br>过于老套,笑话能让人立马猜出来的那种</li></ul><ul><li>女性模型<br>我现在怀疑是不是所有3D动画的女性模型都是尖下巴的…</li></ul></li></ul><ul><li>总结<br>瑕不掩瑜,推荐观看,分类等级大概为PG级</li></ul>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近被基友拉着去看了《哪吒之魔童降世》,有感而发(咕了五个月才憋出来的一篇文章)&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>如何破解百度云限速</title>
-    <link href="https://www.0x7fffff.xyz/%E5%A6%82%E4%BD%95%E7%A0%B4%E8%A7%A3%E7%99%BE%E5%BA%A6%E4%BA%91%E9%99%90%E9%80%9F.html"/>
-    <id>https://www.0x7fffff.xyz/如何破解百度云限速.html</id>
-    <published>2019-03-03T04:24:32.000Z</published>
-    <updated>2019-03-03T06:27:17.435Z</updated>
-    
-    <content type="html"><![CDATA[<p>好久没写博客了<del>主要是懒</del>,为了证明自己还活着,特来发篇教程</p><a id="more"></a><h1 id="用别的方式不好吗"><a href="#用别的方式不好吗" class="headerlink" title="用别的方式不好吗?"></a>用别的方式不好吗?</h1><p>众所周知<del>并不</del>,百度云已经开启了账号限速功能,只要超过流量阀值,就会自动限速<br>这招成功压制了大部分第三方下载工具(Pandownload,速盘,IDM+脚本等),但是这次的软件可以无视这些限速(未限速账号可跑满带宽,已限速账号可以跑到1M/s)</p><h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>首先,下载<a href="https://github.com/iikira/BaiduPCS-Go" target="_blank" rel="noopener">BaiduPCS-Go</a> ,打开,登陆(执行 login)<br>登陆成功后,在窗口内输入如下命令 config set –appid 265486<br>之后可对配置进行调教(加线程之类的),自行参考README.md<br>关闭程序,在浏览器中登陆后访问<a href="http://pcs.baidu.com/rest/2.0/pcs/file?app_id=265486&method=list&path=%2F" target="_blank" rel="noopener">这里</a><br>不管报不报错,检查是否存在/我的应用数据/baidu_shurufa 这个文件夹,存在的话,准备工作就完成了(没有就手动建一个)</p><h1 id="开始下载"><a href="#开始下载" class="headerlink" title="开始下载"></a>开始下载</h1><p>将你想要下载的文件复制到/我的应用数据/baidu_shurufa ,然后进入BaiduPCS-Go,执行如下命令 cd /apps/baidu_shurufa<br>然后执行 d {你要下载的文件名},就可以开始下载了(下载后的文件一般储存在 程序所在的文件夹/Downloads)</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://shimo.im/docs/DkiAbUs9etAFqR3T/read" target="_blank" rel="noopener">https://shimo.im/docs/DkiAbUs9etAFqR3T/read</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;好久没写博客了&lt;del&gt;主要是懒&lt;/del&gt;,为了证明自己还活着,特来发篇教程&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>流浪地球资源</title>
-    <link href="https://www.0x7fffff.xyz/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%83%E8%B5%84%E6%BA%90.html"/>
-    <id>https://www.0x7fffff.xyz/流浪地球资源.html</id>
-    <published>2019-02-08T05:42:00.000Z</published>
-    <updated>2019-02-08T05:54:31.662Z</updated>
-    
-    <content type="html"><![CDATA[<p>流浪地球算是贺岁档中最火的一部了,本人的知乎几乎被刷屏,足以见得它在国产科幻电影中的重要性(To战狼PTSD患者:吴京在这片里炸了,还不去看?)<br>免责声明:本视频均来自互联网收集而来，版权归原创者所有，如果侵犯了你的权益，请通知我们，我们会及时删除侵权内容，谢谢合作。</p><a id="more"></a><p>下载资源:<br>TC720P(音质警告): magnet:?xt=urn:btih:A96126851F84296151B4152CB18470EF662243A6<br>HC720P: magnet:?xt=urn:btih:84513B2B4DD2F0914937151F7FE50AD1BB55E704<br>HD1080P: magnet:?xt=urn:btih:7B723857ADD3C3D18B337B815B6FC8783BF4DB77<br>在线资源:<br><a href="https://www.bwtvb.com/vod-detail-id-70349.html" target="_blank" rel="noopener">https://www.bwtvb.com/vod-detail-id-70349.html</a></p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;流浪地球算是贺岁档中最火的一部了,本人的知乎几乎被刷屏,足以见得它在国产科幻电影中的重要性(To战狼PTSD患者:吴京在这片里炸了,还不去看?)&lt;br&gt;免责声明:本视频均来自互联网收集而来，版权归原创者所有，如果侵犯了你的权益，请通知我们，我们会及时删除侵权内容，谢谢合作。&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>[资源收集]NOeSIS1-3(含漫画等)</title>
     <link href="https://www.0x7fffff.xyz/%E8%B5%84%E6%BA%90%E6%94%B6%E9%9B%86-NOeSIS1-3-%E5%90%AB%E6%BC%AB%E7%94%BB%E7%AD%89.html"/>
     <id>https://www.0x7fffff.xyz/资源收集-NOeSIS1-3-含漫画等.html</id>
