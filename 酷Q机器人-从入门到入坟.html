@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="renderer" content="webkit">
+
+  
+  <title>酷Q机器人-从入门到入坟 | 0x7FFFFF的小窝</title>
+
+  <link rel="shortcut icon" href="/Nyoron.jpg">
+  <link rel="alternate" href="/atom.xml" title="0x7FFFFF的小窝">
+  <meta name="description" content="0x01 前言似乎有挺多人想整个QQ机器人，说真的在QQ群一句话一句话指导挺麻烦的，于是这个屑作品就诞生了 0x02 准备工作你需要准备这些东西：  一个可以联网的x86/amd64设备（系统仅限Windows和Linux）（例如你家的电脑） 一个已经开启了设备锁的账号 一点耐心，一点动手能力，和一点时间  0x03 开始部署 以下部分仅限Windows用户阅读  打开酷Q社区，选择你需要的版本（">
+<meta property="og:type" content="article">
+<meta property="og:title" content="酷Q机器人-从入门到入坟">
+<meta property="og:url" content="https://www.0x7fffff.xyz/酷Q机器人-从入门到入坟.html">
+<meta property="og:site_name" content="0x7FFFFF的小窝">
+<meta property="og:description" content="0x01 前言似乎有挺多人想整个QQ机器人，说真的在QQ群一句话一句话指导挺麻烦的，于是这个屑作品就诞生了 0x02 准备工作你需要准备这些东西：  一个可以联网的x86/amd64设备（系统仅限Windows和Linux）（例如你家的电脑） 一个已经开启了设备锁的账号 一点耐心，一点动手能力，和一点时间  0x03 开始部署 以下部分仅限Windows用户阅读  打开酷Q社区，选择你需要的版本（">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://i.loli.net/2020/04/03/uminlVYShvgqrp7.png">
+<meta property="og:updated_time" content="2020-04-06T08:54:47.076Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="酷Q机器人-从入门到入坟">
+<meta name="twitter:description" content="0x01 前言似乎有挺多人想整个QQ机器人，说真的在QQ群一句话一句话指导挺麻烦的，于是这个屑作品就诞生了 0x02 准备工作你需要准备这些东西：  一个可以联网的x86/amd64设备（系统仅限Windows和Linux）（例如你家的电脑） 一个已经开启了设备锁的账号 一点耐心，一点动手能力，和一点时间  0x03 开始部署 以下部分仅限Windows用户阅读  打开酷Q社区，选择你需要的版本（">
+<meta name="twitter:image" content="https://i.loli.net/2020/04/03/uminlVYShvgqrp7.png">
+
+  <meta name="format-detection" content="telephone=no,email=no">
+  <meta name="theme-color" content="#9C27B0">
+  <meta name="description" content="咕咕咕">
+  <meta name="keywords" content="">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="0x7FFFFF的小窝">
+  <meta name="msapplication-starturl" content="https://www.0x7fffff.xyz/酷Q机器人-从入门到入坟.html">
+  <meta name="msapplication-navbutton-color" content="#9C27B0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="0x7FFFFF的小窝">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/Nyoron.jpg">
+
+  
+    <meta property="article:published_time" content="Mon Apr 06 2020 16:54:32 GMT+0800">
+    <meta property="article:modified_time" content="Mon Apr 06 2020 16:54:47 GMT+0800">
+  
+
+  
+    <link rel="canonical" href="https://www.0x7fffff.xyz/酷Q机器人-从入门到入坟.html">
+  
+
+  
+  
+
+  
+  
+  
+
+  <link rel="stylesheet" href="/css/mdui.css">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body class="mdui-appbar-with-toolbar mdui-drawer-body-left mdui-theme-primary-cyan mdui-theme-accent-indigo">
+  <script>var a=localStorage.getItem("mdui-theme-layout-dark");if(a){document.getElementsByTagName("body")[0].className+=" mdui-theme-layout-dark"};</script>
+  <header id="header" class="mdui-appbar mdui-appbar-fixed mdui-appbar-scroll-hide mdui-appbar-inset">
+  <div class="mdui-toolbar mdui-color-theme">
+    <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-drawer="{target: '#sidebar', swipe: true}"><i class="mdui-icon material-icons">menu</i></a>
+    <a href="/" class="mdui-typo-headline">0x7FFFFF的小窝</a>
+    <div class="mdui-toolbar-spacer"></div>
+    <a href="javascript:;" class="mdui-btn mdui-btn-icon" mdui-dialog="{target: '#search'}" mdui-tooltip="{content: '搜索'}"><i class="mdui-icon material-icons">search</i></a>
+    <a href="/atom.xml" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'RSS'}"><i class="mdui-icon material-icons">rss_feed</i></a>
+  </div>
+</header>
+<div class="mdui-dialog" id="search">
+  
+    <div class="search-form">
+      <input type="search" class="search-form-input" placeholder="Enter the key words">
+    </div>
+    <div class="search-result" data-resource="/search.xml"></div>
+  
+</div>
+  <aside id="sidebar" class="mdui-drawer mdui-drawer-full-height">
+  <div class="mdui-grid-tile">
+    <img src="/images/banner.png" style="height: 160px;">
+    <img src="/Nyoron.jpg" class="avatar-animation" style="position: absolute; top: 10%; left: 24px; width: 64px; height: 64px; border: 2px solid #fff; border-radius: 50%;">
+    <div class="mdui-grid-tile-actions">
+      <div class="mdui-grid-tile-text">
+        <div class="mdui-grid-tile-title">0x7FFFFF</div>
+        <div class="mdui-grid-tile-subtitle"><i class="mdui-icon material-icons">art_track</i>一只虚拟鸽子的家</div>
+      </div>
+      
+        <div class="mdui-grid-tile-buttons">
+          <a href="mailto:w13657804853@163.com" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'w13657804853@163.com'}"><i class="mdui-icon material-icons">email</i></a>
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="mdui-list" mdui-collapse="{accordion: true}">
+    <a href="/" class="mdui-list-item mdui-ripple">
+      <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">home</i>
+      <div class="mdui-list-item-content">主页</div>
+    </a>
+    <div class="mdui-collapse-item">
+      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-deep-orange">inbox</i>
+        <div class="mdui-list-item-content">归档</div>
+        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+      </div>
+      <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
+        
+        <a class="mdui-ripple sidebar_archives-link" href="/archives/2020/04/">四月 2020<span class="mdui-ripple sidebar_archives-count">1</span></a><a class="mdui-ripple sidebar_archives-link" href="/archives/2019/08/">八月 2019<span class="mdui-ripple sidebar_archives-count">1</span></a><a class="mdui-ripple sidebar_archives-link" href="/archives/2019/01/">一月 2019<span class="mdui-ripple sidebar_archives-count">3</span></a>
+        
+      </div>
+    </div>
+    <div class="mdui-collapse-item">
+      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-green">chrome_reader_mode</i>
+        <div class="mdui-list-item-content">分类</div>
+        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+      </div>
+      <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
+        
+        
+        
+          <a href="javascript:;" class="mdui-list-item mdui-ripple mdui-p-l-2 mdui-text-color-theme" style="justify-content: center;">分类为空</a>
+        
+      </div>
+    </div>
+    <div class="mdui-collapse-item">
+      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+        <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-brown">bookmark</i>
+        <div class="mdui-list-item-content">标签</div>
+        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+      </div>
+      <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
+        
+        
+        
+          <a href="javascript:;" class="mdui-list-item mdui-ripple mdui-p-l-2 mdui-text-color-theme" style="justify-content: center;">标签为空</a>
+        
+      </div>
+    </div>
+    <a href="/about" class="mdui-list-item mdui-ripple">
+      <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-purple">person</i>
+      <div class="mdui-list-item-content">关于</div>
+    </a>
+  </div>
+
+  <div class="mdui-divider"></div>
+
+  <div class="mdui-list" mdui-collapse="{accordion: true}">
+    
+      <a href="/tags" class="mdui-list-item mdui-ripple">Tags</a>
+    
+      <a href="/gallery" class="mdui-list-item mdui-ripple">Gallery</a>
+    
+    <div class="mdui-collapse-item">
+      <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+        <div class="mdui-list-item-content">友情链接</div>
+        <i class="mdui-list-item-icon mdui-icon material-icons">link</i>
+      </div>
+      <div class="mdui-collapse-item-body mdui-list mdui-list-dense">
+        
+          <a href="https://github.com" target="_blank" class="mdui-list-item mdui-ripple mdui-p-l-2 mdui-text-color-theme-accent" style="justify-content: center;">Github</a>
+        
+        
+      </div>
+    </div>
+  </div>
+</aside>
+  <main id="main" class="mdui-m-t-5 fadeIn animated">
+  <link rel="stylesheet" href="https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.css">
+  <style>#main article .mdui-card-content .center-block{display:block!important;margin-right:auto!important;margin-left:auto!important}</style>
+  <article class="mdui-card mdui-m-b-5">
+    <header class="mdui-card-media">
+      <img src="/images/random/material-15.png" style="max-height: 240px;">
+      <div class="mdui-card-media-covered">
+        <div class="mdui-card-primary">
+          <div class="mdui-card-primary-title">酷Q机器人-从入门到入坟</div>
+          <div class="mdui-card-primary-subtitle"><i class="iconfont">&#xe697;</i> 2020-04-06 / <i class="iconfont">&#xe601;</i> 0x7FFFFF</div>
+        </div>
+      </div>
+      <div class="mdui-card-menu">
+        
+          <button class="mdui-btn mdui-btn-icon mdui-text-color-white" mdui-menu="{target: '#qrcode', align: 'right'}"><i class="mdui-icon material-icons">devices</i></button>
+          <ul class="mdui-menu" id="qrcode">
+            
+              <li class="mdui-menu-item"><a class="mdui-text-center mdui-ripple">Send to mobile phone</a></li>
+            
+            <li class="mdui-menu-item" disabled>
+              
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN4AAADeCAAAAAB3DOFrAAACXUlEQVR42u3aQW7DMAwEwPz/0+21QGF1ScmMkY5PQWLLGh1EhuLr66OvFx4eHh4eHh4e3sN4r/haP/Xz+9935m88MDc8PDy8Ed4fW+1y0tVfrwDVZy/fjoeHhzfIS7b7q1dejdP7tTc3PDw8vCfz8vR3PTIeHh7ef+YlSfN+eo2Hh4f3NF7yhz/Z1neCx4FCCR4eHt4ILz9kmv88er6Hh4eHF/DKLU1Hy7V5at5susLDw8O7gZdvxHkzQbUMkRcyoqIGHh4e3s286nTXm/7O0qzHzJcMDw8Pb4aXTzEH5IdeOTUqK+Ph4eHdzCs8ViynJpt7UrbIlxUPDw9vhrcDyGHre/aP4vDw8PAmefkf/moAONWaUH4jHh4e3s283oFTrwyRf99rt8LDw8Ob5OUpb7I0yf29cNLsKcPDw8O7gbdTmKiWaPOSRJ5Y4+Hh4T2BVy2z9oJBb/xmZwQeHh7eId7O1r9OiKvgXqjAw8PDm+clm/WpELKTNOczxMPDw7ub1ysu5IXdasCothHg4eHhvYu3M/Wdg7GdxB0PDw/vCbydyVWnW02aCyk4Hh4e3iCvR62WgHvLcTilxsPDwzvK2xm62i6Qv3f9FB4eHt4kr3pVN/dqw0Fe3sXDw8N7F6+3KSfUXjm4V/DFw8PDm+flwWAnMCRNAHnr1eVs8fDw8AZ5eSm2GkLWS9kb/0CtBQ8PD+/BvBy2Dj9RUQMPDw/vwbxeOaM3QqHAgYeHhzfI6x165U0D+ffVhjA8PDy8eV51W88T5eoxWDVE4eHh4c3zPu/Cw8PDw8PDw8N7wPUN4Q1no7ljGEUAAAAASUVORK5CYII=">
+              
+            </li>
+          </ul>
+        
+        
+          <button class="mdui-btn mdui-btn-icon mdui-text-color-white" mdui-menu="{target: '#share_menu', align: 'right'}"><i class="mdui-icon material-icons">share</i></button>
+          <ul class="mdui-menu" id="share_menu">
+            <li class="mdui-menu-item">
+              <a href="http://service.weibo.com/share/share.php?appkey=&title=酷Q机器人-从入门到入坟&url=https://www.0x7fffff.xyz/酷Q机器人-从入门到入坟.html&pic=https://www.0x7fffff.xyz/Nyoron.jpg&searchPic=false&style=simple" target="_blank" class="mdui-ripple">分享到微博</a>
+            </li>
+            <li class="mdui-menu-item">
+              <a href="https://twitter.com/intent/tweet?text=酷Q机器人-从入门到入坟&url=https://www.0x7fffff.xyz/酷Q机器人-从入门到入坟.html&via=0x7FFFFF" target="_blank" class="mdui-ripple">分享到Twitter</a>
+            </li>
+            <li class="mdui-menu-item">
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.0x7fffff.xyz/酷Q机器人-从入门到入坟.html" target="_blank" class="mdui-ripple">分享到Facebook</a>
+            </li>
+            <li class="mdui-menu-item">
+              <a href="https://plus.google.com/share?url=https://www.0x7fffff.xyz/酷Q机器人-从入门到入坟.html" target="_blank" class="mdui-ripple">分享到Google+</a>
+            </li>
+            <li class="mdui-menu-item">
+              <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.0x7fffff.xyz/酷Q机器人-从入门到入坟.html&title=酷Q机器人-从入门到入坟" target="_blank" class="mdui-ripple">分享到LinkedIn</a>
+            </li>
+            <li class="mdui-menu-item">
+              <a href="http://connect.qq.com/widget/shareqq/index.html?site=0x7FFFFF的小窝&title=酷Q机器人-从入门到入坟&summary=咕咕咕&pics=https://www.0x7fffff.xyz/Nyoron.jpg&url=https://www.0x7fffff.xyz/酷Q机器人-从入门到入坟.html" target="_blank" class="mdui-ripple">分享到QQ</a>
+            </li>
+            <li class="mdui-menu-item">
+              <a href="https://telegram.me/share/url?url=https://www.0x7fffff.xyz/酷Q机器人-从入门到入坟.html&text=酷Q机器人-从入门到入坟" target="_blank" class="mdui-ripple">分享到Telegram</a>
+            </li>
+          </ul>
+        
+      </div>
+    </header>
+    <div class="mdui-card-content mdui-typo">
+      <h1 id="0x01-前言"><a href="#0x01-前言" class="headerlink" title="0x01 前言"></a>0x01 前言</h1><p>似乎有挺多人想整个QQ机器人，说真的在QQ群一句话一句话指导挺麻烦的，于是这个屑作品就诞生了</p>
+<h1 id="0x02-准备工作"><a href="#0x02-准备工作" class="headerlink" title="0x02 准备工作"></a>0x02 准备工作</h1><p>你需要准备这些东西：</p>
+<ul>
+<li>一个可以联网的x86/amd64设备（系统仅限Windows和Linux）（例如你家的电脑）</li>
+<li>一个已经开启了设备锁的账号</li>
+<li>一点耐心，一点动手能力，和一点时间</li>
+</ul>
+<h1 id="0x03-开始部署"><a href="#0x03-开始部署" class="headerlink" title="0x03 开始部署"></a>0x03 开始部署</h1><blockquote>
+<p>以下部分仅限Windows用户阅读</p>
+</blockquote>
+<p>打开<a href="https://cqp.cc/b/news" target="_blank" rel="noopener">酷Q社区</a>，选择你需要的版本（普通用户请选用Air，有发图/语音/撤回需求的请选择Pro，Linux用户请选择Docker版），词库随意<br>下载好了之后，解压并打开目录，你将会看到一个可执行文件（CQA.exe或CQP.exe），打开之后将会出现登录画面，填写你的QQ号和密码，进行设备锁验证后按照指引完成新手教程即可</p>
+<h1 id="0x04-应用相关"><a href="#0x04-应用相关" class="headerlink" title="0x04 应用相关"></a>0x04 应用相关</h1><p color="red">不要同时启用太多应用！</p>
+应用是酷Q机器人最重要的东西，没了应用酷Q就只是个机器人框架
+寻找应用最推荐的还是通过社区的[应用发布•创意](https://cqp.cc/b/app)来查找（记得注册账号）（每个应用下载时都会消耗1CP）
+下载好后缀名为cpk的文件后，右键机器人悬浮窗或状态栏的机器人图标，选择应用-应用目录，将下好的应用文件放入此文件夹中，打开应用管理，点击重载应用，点击刚刚加载好多插件，再点击右边的启用按钮即可
+关于应用管理页面：一图流
+![photo.png](https://i.loli.net/2020/04/03/MEuY8w4cIDFqyPg.png)
+
+<h1 id="0x05-日志系统"><a href="#0x05-日志系统" class="headerlink" title="0x05 日志系统"></a>0x05 日志系统</h1><p>日志系统相当于是机器人和我们的一个单向交互系统，机器人会事无巨细的记录下它所收集到的每一条信息（消息，图片，语音等）<br>老规矩，依旧一图。。。草这个日志系统如果你看都看不出来到底哪是哪的话那我还是自闭去吧<br><img src="https://i.loli.net/2020/04/03/uminlVYShvgqrp7.png" alt="86b433d116862c38517cf6b3e854658e76aee1a5.png"><br>只提几个细节：绿色的是机器人做出的响应，橙色是警告，红色是错误，致命错误。。。没碰见过</p>
+<h1 id="0x06-一些问题"><a href="#0x06-一些问题" class="headerlink" title="0x06 一些问题"></a>0x06 一些问题</h1><ul>
+<li>为什么我用了几分钟机器人就不回我消息了？（日志显示正常）<br>这是QQ的安全模式（笔者叫法），会拦截大部分通过机器人发出的消息，解决办法：放几天</li>
+<li>为什么机器人的日志里全是“应用处理中”？<br>你应用装太多了机器人反应不过来或者某个应用出错了，解决办法：重启机器人（治标）/禁用部分插件（治本）/更换系统（仅针对服务器）</li>
+<li>Pro和Air有什么区别吗？价格多少？<br>详情请看<a href="https://cqp.cc/t/23290" target="_blank" rel="noopener">这里</a>，Pro的价格为12元/月（初次购买）/11元/月（续费）</li>
+<li>明明存在某个dll文件，却提示缺少dll？<br>安装VC++2012,2013,2015-2019的x86和x64版本（<br><a href="https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/" target="_blank" rel="noopener">整合版链接</a>）</li>
+<li>我还有别的问题？<br>请在评论区做出回复</li>
+</ul>
+<h1 id="0x07-高级部分"><a href="#0x07-高级部分" class="headerlink" title="0x07 高级部分"></a>0x07 高级部分</h1><blockquote>
+<p>此部分内容仅推荐已掌握了基本使用方法的用户阅读</p>
+</blockquote>
+<ul>
+<li>CQ码<br>我们常常在日志里面看见例如[CQ:image,file=xxx.jpg]之类的消息，这就是CQ码<br>CQ码，是指在 酷Q 的消息中，以 [CQ: 开头、] 结尾的，可以实现特殊功能的代码<br>详情参见<a href="https://docs.cqp.im/manual/cqcode/" target="_blank" rel="noopener">酷Q文库</a><br>CQ码是实现一切特殊消息（图片/语音/音乐/链接分享/签到打卡）的基础<br>image，顾名思义即为图片类型的CQ码，在使用时需要注意将需要发送的图片放在机器人根目录/data/image文件夹下；record（语音）同理，但是要记得装语音组件<br>CQ HTTP API插件有一个增强CQ码，如果你是开发者的话我更推荐用那个，比原生的方便<br>一些CQ码的坑：<a href="https://github.com/richardchien/coolq-http-api/wiki/CQ-%E7%A0%81%E7%9A%84%E5%9D%91" target="_blank" rel="noopener">点我</a></li>
+<li>data文件夹<br>data文件夹是存放酷Q收到的数据的地方，在这里我会逐一的对每个文件夹进行介绍<br>[QQ号]：存放机器人收到的消息的文件夹，通常你只需要关心logv2_时间.db的文件就行了，这个就是酷Q的日志文件，打开需要Naivcat的支持，这里我就不多介绍了<br>app：存放应用配置的文件夹，里面的文件夹与上图中的appid相互对应<br>bface：存放小表情的文件夹，无需关心<br>image：存放图片的文件夹，以cqimg为后缀的文件可用记事本打开，其中的url字串就是图片链接<br>log：不明<br>record：存放录音的文件夹，除非有发送语音的需要，否则无需关心<br>show：不明<br>tmp：缓存文件夹，无需关心</li>
+<li>使用其他协议登录机器人<blockquote>
+<p>此处用的是别人的教程</p>
+</blockquote>
+</li>
+</ul>
+<p><strong>仅酷Q Pro具备此功能</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">notepad++ 打开  \conf\CQP.cfg，添加以下3行</span><br><span class="line">[Dev]</span><br><span class="line">Enable=1</span><br><span class="line">Platform=2</span><br><span class="line">解释:</span><br><span class="line">[Dev]</span><br><span class="line">Enable=1 //意思是打开开发者模式生效</span><br><span class="line">Platform=2 //意思是登录模式切换为2，2就是IPAD协议登录 (安卓 = 0,IPAD = 2, 安卓平板 = 4 , MacQQ = 5)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>由PuzzleMaker制作的插件的安装方法<br>这些插件最显著的特点就是后缀名为pmsr，并且这些插件需要PuzzleMaker作为前置<br>首先在conf/CQP.cfg文件下追加如下内容（不要打开开发者模式！与上一个“以其他协议登录机器人”冲突！）<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[Dev]</span><br><span class="line">DisableHeapProtect=1</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p>接下来安装VC++ 2015-2019 x86版（<a href="https://www.microsoft.com/zh-cn/download/confirmation.aspx?id=48145&6B49FDFB-8E5B-4B07-BC31-15695C5A2143=1" target="_blank" rel="noopener">链接</a>）
+然后将mujs.dll（<a href="https://oneindex.0x7fffff.xyz/mujs.dll" target="_blank" rel="noopener">链接</a>）放置到机器人根目录/bin文件夹下<br>最后下载PuzzleMaker（<a href="https://cqp.cc/t/43938" target="_blank" rel="noopener">链接</a>），按照正常的应用安装方式进行安装，打开菜单，点击拼图目录，将pmsr文件放入其中，点击重载拼图，对着拼图右键启用即可</p>
+<h1 id="0x08-后记"><a href="#0x08-后记" class="headerlink" title="0x08 后记"></a>0x08 后记</h1><p>怎么说呢，我的机器人开了也算是有一年的，我的总结就是：只要你够用心，总会培养出一只独一无二的机器人的，我也期待着你培养出来的那一天</p>
+
+      <blockquote class="mdui-m-t-5">
+        
+        <strong>本文链接：</strong><a href="https://www.0x7fffff.xyz/酷Q机器人-从入门到入坟.html">https://www.0x7fffff.xyz/酷Q机器人-从入门到入坟.html</a>
+      </blockquote>
+      
+    </div>
+    <footer class="mdui-card-actions">
+      
+      
+    </footer>
+    
+  </article>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <script>$("#main article .mdui-card-content img.fancybox").on("click",function(e){$.fancybox.open({src:$(this).attr("src")});});</script>
+
+
+  <nav id="paginator">
+    
+    <div class="spacer"></div>
+    
+      <a rel="next" class="extend next" href="/MinecraftEarth安装教程.html">
+        下一篇&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button aria-label="next" class="mdui-btn mdui-btn-raised mdui-btn-dense mdui-btn-icon mdui-color-theme-accent mdui-ripple"><i class="mdui-icon material-icons">arrow_forward</i></button>
+      </a>
+    
+  </nav>
+
+
+
+</main>
+  <footer id="footer" class="mdui-m-t-5 mdui-p-y-3 mdui-color-theme">
+  <div class="mdui-p-y-0 mdui-text-center">
+    
+    
+    
+    
+    
+    
+    
+      <a href="https://github.com/umauc" target="_blank"><i class="mdui-p-a-1 mdui-icon iconfont mdui-text-color-theme-a100">&#xe7ab;</i></a>
+    
+    
+    
+    
+    
+    
+  </div>
+  <div class="mdui-p-y-1 mdui-text-center">
+    Copyright &copy; 2019 - 2020 0x7FFFFF<br>
+    Powered by <a href="https://hexo.io/" target="_blank" class="mdui-text-color-theme-accent">Hexo</a>
+    
+  </div>
+</footer>
+  <button id="gotop" class="mdui-fab mdui-fab-fixed mdui-fab-hide mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">arrow_upward</i></button>
+  
+  <script src="/js/mdui.js"></script>
+<script src="/js/script.js"></script>
+</body>
+</html>
